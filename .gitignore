@@ -1,0 +1,26 @@
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.a
+*.out
+*.test
+
+# Coverage
+*.cover
+coverage.out
+
+# Local binaries
+sidecar-indexer
+
+# IDE / OS noise
+.vscode/
+.idea/
+.DS_Store
+
+# Runtime generated index artifacts (keep data/ directory tracked)
+data/dict-*.sst
+data/post-*.sst
+data/dict-*.sidx
