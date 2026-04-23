@@ -73,24 +73,24 @@ bash run_hex_demo.sh
 
 ## CLI Flags
 
-| Flag | Default | Description |
-|---|---|---|
-| `--mode` | `ingest` | Execution mode: `ingest`, `search`, `ingest-search` |
-| `--format` | `auto` | Input parser format: `auto`, `csv`, `json`, `pdf` |
-| `--input` | `""` | Input file path |
-| `--input-dir` | `""` | Input directory path (scan `csv/json/pdf`) |
-| `--dict` | `""` | Dictionary SST output path (must be used together with `--post`) |
-| `--post` | `""` | Postings SST output path (must be used together with `--dict`) |
-| `--segment-dir` | `data` | Segment directory for timestamped search/ingest outputs |
-| `--query` | `""` | Query string for search modes |
-| `--checkpoint-stride` | `64` | Sparse checkpoint interval |
-| `--mem-threshold-bytes` | `54 * 1024 * 1024` | Memtable flush threshold |
-| `--mem-hard-limit-bytes` | `70 * 1024 * 1024` | Memtable hard limit (must be greater than threshold) |
+| Flag                     | Default            | Description                                                      |
+| ------------------------ | ------------------ | ---------------------------------------------------------------- |
+| `--mode`                 | `ingest`           | Execution mode: `ingest`, `search`, `ingest-search`              |
+| `--format`               | `auto`             | Input parser format: `auto`, `csv`, `json`, `pdf`                |
+| `--input`                | `""`               | Input file path                                                  |
+| `--input-dir`            | `""`               | Input directory path (scan `csv/json/pdf`)                       |
+| `--dict`                 | `""`               | Dictionary SST output path (must be used together with `--post`) |
+| `--post`                 | `""`               | Postings SST output path (must be used together with `--dict`)   |
+| `--segment-dir`          | `data`             | Segment directory for timestamped search/ingest outputs          |
+| `--query`                | `""`               | Query string for search modes                                    |
+| `--checkpoint-stride`    | `64`               | Sparse checkpoint interval                                       |
+| `--mem-threshold-bytes`  | `54 * 1024 * 1024` | Memtable flush threshold                                         |
+| `--mem-hard-limit-bytes` | `70 * 1024 * 1024` | Memtable hard limit (must be greater than threshold)             |
 
 ## Query Behavior
 
 - Terms are normalized to lowercase.
-- AND is supported using the string ` and ` (case-insensitive input, normalized internally).
+- AND is supported using the string `and` (case-insensitive input, normalized internally).
 - Example: `"go AND search and engine"`.
 
 ## Generated Files
