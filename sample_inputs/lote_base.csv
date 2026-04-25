@@ -1,4 +1,0 @@
-id,content,topic
-1,"hexagonal architecture ports adapters","architecture"
-2,"sparse index checkpoints memtable","storage"
-3,"go search and sidecar","search"
