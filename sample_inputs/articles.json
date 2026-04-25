@@ -1,0 +1,1402 @@
+[
+  {
+    "title": "Deep Learning Advances in NLP",
+    "content": "Recent progress in attention architectures has completely redefined state-of-the-art benchmarks in information retrieval, document search, and long-context question answering. Multi-turn prompt engineering is now essential for all LLM pipelines.",
+    "tags": ["AI", "NLP", "Attention", "Prompt Engineering"],
+    "author": "Sara Lin",
+    "date": "2024-02-15"
+  },
+  {
+    "title": "Go for High-Performance Microservices",
+    "content": "Go's CSP-based concurrency, zero-overhead goroutines, and native HTTP server make it the language of choice for building ultra-low-latency search and API gateways in high-throughput SaaS. Adoption success stories at multiple global tech firms.",
+    "tags": ["Go", "Microservices", "SaaS"],
+    "author": "David Choi",
+    "date": "2024-03-22"
+  },
+  {
+    "title": "Practical AI Agents in Production",
+    "content": "Deploying LLM-powered agents alongside legacy Python automation: design patterns for agent orchestration, message passing, and failover. Covers Go/TypeScript/Python hybrid stacks in Kubernetes environments.",
+    "tags": ["AI Agents", "Kubernetes", "Go", "TypeScript", "Python", "Orchestration"],
+    "author": "S. Machado",
+    "date": "2024-04-11"
+  },
+  {
+    "title": "Vector Databases and Semantic Search",
+    "content": "An in-depth look at Pinecone, Weaviate, and pgvector for storing and querying high-dimensional embeddings. Benchmark comparisons across recall, latency, and indexing throughput for RAG pipelines.",
+    "tags": ["Vector DB", "Semantic Search", "RAG", "Embeddings"],
+    "author": "Lena Fischer",
+    "date": "2024-01-08"
+  },
+  {
+    "title": "Rust for Systems Programming in 2024",
+    "content": "Rust's ownership model eliminates entire classes of memory bugs without a garbage collector. This article explores async runtimes, zero-copy I/O, and practical patterns for writing safe, high-performance networked services.",
+    "tags": ["Rust", "Systems Programming", "Async", "Performance"],
+    "author": "Marco Bellini",
+    "date": "2024-02-28"
+  },
+  {
+    "title": "Kubernetes Cost Optimization Strategies",
+    "content": "Reducing cloud spend by 40% with namespace-level resource quotas, VPA, HPA, and Spot/Preemptible node pools. Real-world case study from a mid-size fintech running 300-node clusters.",
+    "tags": ["Kubernetes", "Cost Optimization", "Cloud", "FinTech"],
+    "author": "Priya Nair",
+    "date": "2024-05-03"
+  },
+  {
+    "title": "Fine-Tuning LLMs on Domain-Specific Data",
+    "content": "Step-by-step guide to LoRA and QLoRA fine-tuning on medical, legal, and financial corpora. Covers dataset curation, evaluation metrics, and serving fine-tuned models behind a FastAPI gateway.",
+    "tags": ["LLM", "Fine-Tuning", "LoRA", "FastAPI", "AI"],
+    "author": "James Okafor",
+    "date": "2024-03-10"
+  },
+  {
+    "title": "TypeScript Monorepos with Turborepo",
+    "content": "Managing large TypeScript codebases with Turborepo, pnpm workspaces, and shared ESLint/Prettier configs. Incremental builds and remote caching cut CI times from 18 minutes to under 3.",
+    "tags": ["TypeScript", "Monorepo", "Turborepo", "CI/CD"],
+    "author": "Sofia Andersen",
+    "date": "2024-04-19"
+  },
+  {
+    "title": "GraphQL Federation at Scale",
+    "content": "Designing a supergraph with Apollo Federation 2 across 12 independently deployed subgraphs. Entity resolvers, @shareable directives, and schema-first contract testing between teams.",
+    "tags": ["GraphQL", "Federation", "API", "Microservices"],
+    "author": "Ravi Shankar",
+    "date": "2024-06-01"
+  },
+  {
+    "title": "Observability-Driven Development",
+    "content": "Shifting left on observability by embedding OpenTelemetry instrumentation during development, not after. Structured logging, distributed tracing, and exemplar-linked metrics with Grafana and Tempo.",
+    "tags": ["Observability", "OpenTelemetry", "Grafana", "DevOps"],
+    "author": "Clara Dupont",
+    "date": "2024-01-25"
+  },
+  {
+    "title": "Retrieval-Augmented Generation Best Practices",
+    "content": "RAG pipeline design patterns: chunking strategies, hybrid BM25+dense retrieval, re-ranking with cross-encoders, and context compression. Evaluated on enterprise knowledge-base Q&A tasks.",
+    "tags": ["RAG", "LLM", "Information Retrieval", "AI"],
+    "author": "Ahmed El-Sayed",
+    "date": "2024-05-17"
+  },
+  {
+    "title": "Platform Engineering and Internal Developer Portals",
+    "content": "Building a Backstage-based IDP that provisions ephemeral environments, enforces golden paths, and surfaces service health. Lessons from rolling it out to 200 engineers across 8 squads.",
+    "tags": ["Platform Engineering", "Backstage", "DevOps", "Developer Experience"],
+    "author": "Hannah Müller",
+    "date": "2024-07-02"
+  },
+  {
+    "title": "dbt and the Modern Analytics Stack",
+    "content": "Using dbt Core with Snowflake for modular, version-controlled data transformations. Covers testing frameworks, documentation generation, and CI-driven deployments via GitHub Actions.",
+    "tags": ["dbt", "Analytics", "Snowflake", "Data Engineering"],
+    "author": "Lucas Ferreira",
+    "date": "2024-02-09"
+  },
+  {
+    "title": "Zero-Trust Security for Cloud-Native Apps",
+    "content": "Implementing zero-trust with SPIFFE/SPIRE, mutual TLS, and OPA policy enforcement at the sidecar level. Architecture patterns for workload identity in multi-cloud Kubernetes deployments.",
+    "tags": ["Security", "Zero Trust", "Kubernetes", "OPA", "mTLS"],
+    "author": "Yuki Tanaka",
+    "date": "2024-03-30"
+  },
+  {
+    "title": "Streaming Data Pipelines with Apache Flink",
+    "content": "Stateful stream processing with Flink: watermarks, event-time windows, and exactly-once semantics over Kafka sources. Practical tuning for high-throughput fraud-detection workloads.",
+    "tags": ["Flink", "Streaming", "Kafka", "Data Engineering"],
+    "author": "Elena Kozlova",
+    "date": "2024-04-05"
+  },
+  {
+    "title": "React Server Components in Depth",
+    "content": "How React Server Components shift rendering and data fetching to the server without sacrificing interactivity. Patterns for seamless client/server composition in Next.js 14 App Router applications.",
+    "tags": ["React", "Next.js", "Frontend", "SSR"],
+    "author": "Tom O'Brien",
+    "date": "2024-06-14"
+  },
+  {
+    "title": "Event-Driven Architecture with Kafka and Schema Registry",
+    "content": "Designing robust event-driven systems with Apache Kafka, Avro schemas, and Confluent Schema Registry. Consumer group rebalancing strategies and dead-letter queue patterns for production resilience.",
+    "tags": ["Kafka", "Event-Driven", "Avro", "Architecture"],
+    "author": "Fatima Al-Rashid",
+    "date": "2024-01-19"
+  },
+  {
+    "title": "Machine Learning Pipelines with ZenML",
+    "content": "Orchestrating reproducible ML experiments with ZenML: artifact versioning, step caching, and seamless transitions from local dev to cloud execution on AWS SageMaker and GCP Vertex AI.",
+    "tags": ["MLOps", "ZenML", "ML Pipelines", "Cloud"],
+    "author": "Nils Eriksson",
+    "date": "2024-05-28"
+  },
+  {
+    "title": "eBPF for Production Observability",
+    "content": "Using eBPF-based tools like Cilium, Pixie, and Parca to gain deep kernel-level visibility without code instrumentation. CPU profiling, network flow tracing, and security audit trails at near-zero overhead.",
+    "tags": ["eBPF", "Observability", "Linux", "Performance"],
+    "author": "Chiara Romano",
+    "date": "2024-03-15"
+  },
+  {
+    "title": "Svelte 5 and the Runes API",
+    "content": "Svelte 5 introduces runes—a new reactivity primitive—replacing the implicit compiler magic of prior versions. Benchmarks show 30% smaller bundles and faster hydration vs. React 18 for content-heavy apps.",
+    "tags": ["Svelte", "Frontend", "JavaScript", "Performance"],
+    "author": "Ingrid Halvorsen",
+    "date": "2024-07-10"
+  },
+  {
+    "title": "Terraform at Enterprise Scale",
+    "content": "Managing 50+ AWS accounts with Terraform workspaces, remote state in S3, and Atlantis for PR-based plan/apply workflows. Module versioning strategy and drift detection with Terraform Cloud.",
+    "tags": ["Terraform", "IaC", "AWS", "DevOps"],
+    "author": "Kofi Mensah",
+    "date": "2024-02-20"
+  },
+  {
+    "title": "Postgres Performance Tuning Deep Dive",
+    "content": "Analyzing slow queries with pg_stat_statements, EXPLAIN ANALYZE, and auto_explain. Index strategies: partial, expression, and BRIN indexes for time-series data. Connection pooling with PgBouncer.",
+    "tags": ["PostgreSQL", "Database", "Performance", "SQL"],
+    "author": "Isabel Carvalho",
+    "date": "2024-04-30"
+  },
+  {
+    "title": "Designing Resilient APIs with Circuit Breakers",
+    "content": "Implementing the circuit breaker pattern in Go using Hystrix-go and resilience4j for JVM services. Fallback strategies, bulkhead isolation, and timeout budgets in distributed microservice meshes.",
+    "tags": ["API Design", "Resilience", "Go", "Microservices"],
+    "author": "Omar Benali",
+    "date": "2024-06-22"
+  },
+  {
+    "title": "LLM Evaluation Frameworks Compared",
+    "content": "Head-to-head comparison of RAGAS, DeepEval, and LangSmith for evaluating RAG pipelines and chat applications. Discusses faithfulness, answer relevancy, and hallucination detection metrics.",
+    "tags": ["LLM", "Evaluation", "RAG", "AI"],
+    "author": "Sun Li",
+    "date": "2024-05-09"
+  },
+  {
+    "title": "Designing Multi-Tenant SaaS on AWS",
+    "content": "Tenant isolation patterns: pool, silo, and bridge models on AWS with RDS, DynamoDB, and Cognito. Cost attribution per tenant using tagging strategies and AWS Cost Explorer APIs.",
+    "tags": ["SaaS", "Multi-Tenant", "AWS", "Architecture"],
+    "author": "Amara Diallo",
+    "date": "2024-03-04"
+  },
+  {
+    "title": "WebAssembly Beyond the Browser",
+    "content": "WASI, wasmtime, and component model bring WebAssembly to server-side workloads: plugin systems, edge compute, and sandboxed data processing. Language support matrix for Rust, Go, and Python.",
+    "tags": ["WebAssembly", "WASI", "Edge Computing", "Rust"],
+    "author": "Patrick Leblanc",
+    "date": "2024-07-18"
+  },
+  {
+    "title": "Prompt Caching and Cost Reduction in LLM APIs",
+    "content": "Techniques for reducing token costs in production: system-prompt caching, prefix sharing, and batched inference. Empirical analysis across Anthropic, OpenAI, and Gemini pricing models.",
+    "tags": ["LLM", "Cost Optimization", "Prompt Engineering", "AI"],
+    "author": "Zara Ahmed",
+    "date": "2024-06-07"
+  },
+  {
+    "title": "GitOps with Argo CD and Flux",
+    "content": "Comparing Argo CD and Flux for GitOps-driven Kubernetes delivery. Progressive delivery with Argo Rollouts: canary, blue-green, and analysis templates backed by Prometheus metrics.",
+    "tags": ["GitOps", "Argo CD", "Flux", "Kubernetes", "CI/CD"],
+    "author": "Viktor Petrov",
+    "date": "2024-01-30"
+  },
+  {
+    "title": "Async Python at Scale with asyncio",
+    "content": "Deep dive into asyncio event loops, task groups, and structured concurrency in Python 3.12. Profiling async bottlenecks with Py-Spy and integrating with synchronous libraries via run_in_executor.",
+    "tags": ["Python", "Async", "asyncio", "Performance"],
+    "author": "Marie Lecomte",
+    "date": "2024-04-22"
+  },
+  {
+    "title": "AI-Powered Code Review with LLMs",
+    "content": "Integrating LLM-driven code review bots into GitHub PRs using GitHub Actions and Claude. Prompt design for detecting security anti-patterns, complexity violations, and missing test coverage.",
+    "tags": ["AI", "Code Review", "GitHub", "DevOps", "LLM"],
+    "author": "Tae-yang Kim",
+    "date": "2024-05-14"
+  },
+  {
+    "title": "Building a Real-Time Collaborative Editor",
+    "content": "CRDT-based collaborative editing with Yjs, WebSocket relay servers, and Tiptap as the rich-text layer. Persistence strategies using Redis and Postgres for document history and conflict resolution.",
+    "tags": ["CRDT", "Real-Time", "WebSocket", "Yjs", "Collaboration"],
+    "author": "Beatriz Santos",
+    "date": "2024-02-14"
+  },
+  {
+    "title": "Secrets Management with HashiCorp Vault",
+    "content": "Dynamic secrets, PKI automation, and transit encryption with Vault in Kubernetes. AppRole and Kubernetes auth methods, secret lease renewal, and disaster recovery with Raft-integrated storage.",
+    "tags": ["Security", "Vault", "Secrets Management", "Kubernetes"],
+    "author": "Andrei Popescu",
+    "date": "2024-06-30"
+  },
+  {
+    "title": "Feature Flags and Experimentation Platforms",
+    "content": "Rolling out features safely with LaunchDarkly and Unleash: targeting rules, gradual rollouts, and A/B testing integration with analytics. SDK patterns for Go, React, and Python services.",
+    "tags": ["Feature Flags", "Experimentation", "A/B Testing", "DevOps"],
+    "author": "Nadia Okonkwo",
+    "date": "2024-03-18"
+  },
+  {
+    "title": "The State of WebSockets in 2024",
+    "content": "When to choose WebSockets vs. SSE vs. HTTP/2 push vs. WebTransport. Load-balancing sticky sessions, heartbeat design, and horizontal scaling patterns with Redis Pub/Sub for fan-out.",
+    "tags": ["WebSockets", "Real-Time", "Backend", "Architecture"],
+    "author": "Carlos Medina",
+    "date": "2024-07-25"
+  },
+  {
+    "title": "Data Lakehouse Architecture with Apache Iceberg",
+    "content": "Iceberg table format brings ACID transactions, schema evolution, and time-travel queries to object storage. Integration with Spark, Trino, and Flink for unified batch and streaming analytics.",
+    "tags": ["Data Lakehouse", "Iceberg", "Spark", "Data Engineering"],
+    "author": "Olga Smirnova",
+    "date": "2024-02-05"
+  },
+  {
+    "title": "LLM Tool Calling and Function Orchestration",
+    "content": "Designing reliable tool-calling pipelines with structured outputs, JSON schema validation, and retry logic. Patterns for multi-step agent loops in LangGraph and the Anthropic tool-use API.",
+    "tags": ["LLM", "Tool Calling", "AI Agents", "LangGraph"],
+    "author": "Daniel Osei",
+    "date": "2024-05-21"
+  },
+  {
+    "title": "Continuous Profiling in Production",
+    "content": "Continuous profiling with Parca, Pyroscope, and Google Cloud Profiler. Flame graph interpretation, regression detection in CI, and correlating CPU spikes with deployment events in Grafana.",
+    "tags": ["Profiling", "Performance", "Observability", "DevOps"],
+    "author": "Hana Novak",
+    "date": "2024-04-08"
+  },
+  {
+    "title": "Chaos Engineering with LitmusChaos",
+    "content": "Designing and running chaos experiments on Kubernetes with LitmusChaos and Chaos Monkey. Steady-state hypothesis definition, blast radius control, and integrating experiments into CI pipelines.",
+    "tags": ["Chaos Engineering", "Kubernetes", "Resilience", "SRE"],
+    "author": "Emmanuel Adjei",
+    "date": "2024-06-17"
+  },
+  {
+    "title": "Semantic Versioning for Microservice APIs",
+    "content": "Versioning REST and gRPC APIs without breaking consumers: header-based versioning, URI versioning, and protobuf backward-compatibility rules. Contract testing with Pact to automate verification.",
+    "tags": ["API Design", "Versioning", "gRPC", "Microservices"],
+    "author": "Chloe Martin",
+    "date": "2024-01-12"
+  },
+  {
+    "title": "AI Safety and Alignment: A Practitioner's View",
+    "content": "From RLHF to Constitutional AI, an overview of alignment techniques in production LLMs. Red-teaming methodologies, output filtering, and responsible deployment checklists for enterprise AI teams.",
+    "tags": ["AI Safety", "Alignment", "RLHF", "LLM", "Responsible AI"],
+    "author": "Samira Hosseini",
+    "date": "2024-07-04"
+  },
+  {
+    "title": "Building CLI Tools in Go",
+    "content": "Cobra and Viper for production-grade CLI tooling: subcommand trees, config file merging, and shell completion generation. Packaging with GoReleaser for multi-platform binary distribution.",
+    "tags": ["Go", "CLI", "DevTools", "Open Source"],
+    "author": "Theo Baxter",
+    "date": "2024-03-26"
+  },
+  {
+    "title": "Distributed Tracing with OpenTelemetry and Jaeger",
+    "content": "Instrumenting a polyglot microservice stack with OpenTelemetry SDKs for Go, Python, and Node.js. Sampling strategies, trace propagation across async boundaries, and Jaeger UI for root-cause analysis.",
+    "tags": ["Distributed Tracing", "OpenTelemetry", "Jaeger", "Observability"],
+    "author": "Miriam Goldberg",
+    "date": "2024-02-22"
+  },
+  {
+    "title": "Functional Programming Patterns in TypeScript",
+    "content": "Applying fp-ts and Effect-ts for railway-oriented programming, validated error handling, and purely functional data pipelines in Node.js backend services. Performance implications and trade-offs.",
+    "tags": ["TypeScript", "Functional Programming", "fp-ts", "Node.js"],
+    "author": "Sergio Vega",
+    "date": "2024-05-31"
+  },
+  {
+    "title": "PostgreSQL Full-Text Search vs. Elasticsearch",
+    "content": "When PostgreSQL's tsvector/tsquery is sufficient and when to reach for Elasticsearch. Benchmarks on 50M-document corpora, relevance scoring tuning, and operational complexity trade-offs.",
+    "tags": ["PostgreSQL", "Elasticsearch", "Full-Text Search", "Database"],
+    "author": "Anna Lindqvist",
+    "date": "2024-04-14"
+  },
+  {
+    "title": "Progressive Web Apps in 2024",
+    "content": "Service workers, background sync, and the File System Access API push PWAs closer to native parity. Performance budgets, installability criteria, and Lighthouse audits for production-grade PWAs.",
+    "tags": ["PWA", "Frontend", "Service Workers", "Performance"],
+    "author": "Kevin Abubakar",
+    "date": "2024-06-25"
+  },
+  {
+    "title": "Multi-Model AI Routing and Cost Management",
+    "content": "Routing queries to the cheapest suitable model using complexity classifiers and latency budgets. A/B testing model quality with human-preference data and automating model upgrades in production pipelines.",
+    "tags": ["LLM", "AI", "Cost Optimization", "MLOps"],
+    "author": "Fiona McAllister",
+    "date": "2024-07-15"
+  },
+  {
+    "title": "Designing High-Availability PostgreSQL Clusters",
+    "content": "Patroni + etcd for automatic failover, pg_basebackup and WAL-G for continuous archiving, and pgpool-II for read-replica load balancing. RPO/RTO targets for financial-grade Postgres deployments.",
+    "tags": ["PostgreSQL", "High Availability", "Database", "SRE"],
+    "author": "Lukas Bauer",
+    "date": "2024-01-05"
+  },
+  {
+    "title": "Self-Hosted AI Inference with llama.cpp and Ollama",
+    "content": "Running Llama 3, Mistral, and Phi-3 locally with llama.cpp quantization (Q4_K_M, Q5_K_S). Serving models via Ollama's REST API and integrating with LangChain for local RAG applications.",
+    "tags": ["Self-Hosted AI", "llama.cpp", "Ollama", "LLM", "RAG"],
+    "author": "Petra Novotny",
+    "date": "2024-05-06"
+  },
+  {
+    "title": "API Rate Limiting Patterns",
+    "content": "Token bucket, sliding window, and leaky bucket algorithms implemented in Redis with Lua scripts. Returning standard rate-limit headers and graceful degradation strategies for API gateway middleware.",
+    "tags": ["API", "Rate Limiting", "Redis", "Backend"],
+    "author": "Kwame Asante",
+    "date": "2024-03-08"
+  },
+  {
+    "title": "Supply Chain Security with SLSA and Sigstore",
+    "content": "Achieving SLSA Level 3 for container images: signed commits, hermetic builds with Bazel, and provenance attestation with Cosign and Rekor. Integrating supply-chain checks into GitHub Actions.",
+    "tags": ["Security", "SLSA", "Sigstore", "DevSecOps", "CI/CD"],
+    "author": "Isabelle Fontaine",
+    "date": "2024-06-12"
+  },
+  {
+    "title": "Design Systems with Storybook and Figma",
+    "content": "Keeping design tokens in sync between Figma and code using the Tokens Studio plugin and Style Dictionary. Storybook 8 interaction tests, accessibility checks, and Chromatic visual regression pipelines.",
+    "tags": ["Design Systems", "Storybook", "Figma", "Frontend"],
+    "author": "Ryo Nakamura",
+    "date": "2024-04-01"
+  },
+  {
+    "title": "The Composable Commerce Architecture",
+    "content": "Replacing monolithic e-commerce platforms with best-of-breed MACH components: headless CMS, cart APIs, search, and payments stitched together via an API gateway and Next.js storefront.",
+    "tags": ["E-Commerce", "MACH", "Headless", "Architecture"],
+    "author": "Valentina Cruz",
+    "date": "2024-02-03"
+  },
+  {
+    "title": "Automating Database Migrations with Flyway and Liquibase",
+    "content": "Comparing Flyway and Liquibase for schema version control. Blue-green migration strategies, backward-compatible changes, and running migrations safely in Kubernetes init containers.",
+    "tags": ["Database", "Migrations", "DevOps", "Kubernetes"],
+    "author": "Simon Theron",
+    "date": "2024-07-08"
+  },
+  {
+    "title": "Governance and Guardrails for Enterprise AI",
+    "content": "Establishing AI governance frameworks: model cards, data lineage, bias audits, and access controls for internal LLM deployments. GDPR and CCPA compliance considerations for AI-generated outputs.",
+    "tags": ["AI Governance", "Compliance", "LLM", "Enterprise AI"],
+    "author": "Aiko Fujimoto",
+    "date": "2024-06-03"
+  },
+  {
+    "title": "High-Throughput gRPC Services in Go",
+    "content": "Maximizing gRPC throughput with server-side streaming, client-side load balancing, and interceptor chains for auth, logging, and retry. Benchmarking against REST equivalents at 100k RPS.",
+    "tags": ["gRPC", "Go", "Performance", "Microservices"],
+    "author": "Marcus Johansson",
+    "date": "2024-01-22"
+  },
+  {
+    "title": "End-to-End Testing with Playwright",
+    "content": "Playwright's multi-browser support, network interception, and visual snapshot testing make it the leading E2E framework in 2024. CI parallelism with sharding and Playwright Trace Viewer for debugging.",
+    "tags": ["Testing", "Playwright", "E2E", "Frontend"],
+    "author": "Amina Traore",
+    "date": "2024-03-29"
+  },
+  {
+    "title": "Streaming LLM Responses with SSE",
+    "content": "Implementing token-by-token streaming from LLM APIs to browser clients using Server-Sent Events. Back-pressure handling, mid-stream error recovery, and progressive UI updates in React.",
+    "tags": ["LLM", "SSE", "Streaming", "React", "Backend"],
+    "author": "Hugo Silva",
+    "date": "2024-05-25"
+  },
+  {
+    "title": "Cloud-Native Storage with Rook and Ceph",
+    "content": "Deploying a Ceph cluster managed by Rook on Kubernetes for block, file, and object storage. Placement groups, replication factor tuning, and Ceph Dashboard integration for capacity planning.",
+    "tags": ["Kubernetes", "Ceph", "Storage", "Cloud Native"],
+    "author": "Diana Ivanescu",
+    "date": "2024-04-17"
+  },
+  {
+    "title": "Micro-Frontends with Module Federation",
+    "content": "Webpack 5 Module Federation enables independently deployable frontend fragments composed at runtime. Team ownership boundaries, shared dependency versioning, and fallback strategies for failed remotes.",
+    "tags": ["Micro-Frontends", "Module Federation", "Webpack", "Frontend"],
+    "author": "Alexandre Dupuis",
+    "date": "2024-07-22"
+  },
+  {
+    "title": "Behavioral Testing with BDD and Cucumber",
+    "content": "Writing executable specifications in Gherkin with Cucumber for Java and Go. Integrating BDD into sprint ceremonies, generating living documentation, and maintaining step libraries across large teams.",
+    "tags": ["Testing", "BDD", "Cucumber", "Go", "Java"],
+    "author": "Grace Wanjiku",
+    "date": "2024-02-18"
+  },
+  {
+    "title": "Reducing LLM Hallucinations with Grounding Techniques",
+    "content": "Combining retrieval augmentation, citation enforcement, and chain-of-verification prompts to minimize hallucinations. Evaluation with FactScore and HaluEval on open-domain QA benchmarks.",
+    "tags": ["LLM", "Hallucination", "RAG", "AI", "Grounding"],
+    "author": "Nathan Park",
+    "date": "2024-06-19"
+  },
+  {
+    "title": "Cloud Cost Attribution with OpenCost",
+    "content": "OpenCost provides real-time Kubernetes cost visibility at namespace, label, and workload granularity. Integrating with Prometheus and Grafana for chargeback dashboards across multi-tenant clusters.",
+    "tags": ["Cloud Cost", "OpenCost", "Kubernetes", "FinOps"],
+    "author": "Yolanda Ferreira",
+    "date": "2024-01-17"
+  },
+  {
+    "title": "WASM Edge Functions with Cloudflare Workers",
+    "content": "Deploying Rust-compiled WebAssembly modules to Cloudflare Workers for sub-millisecond cold starts. Use cases: A/B routing, JWT validation, and image transformation at the edge without Node.js.",
+    "tags": ["WebAssembly", "Edge Computing", "Cloudflare", "Rust"],
+    "author": "Lars Petersen",
+    "date": "2024-05-12"
+  },
+  {
+    "title": "Distributed Locks with Redis and Redlock",
+    "content": "Implementing mutual exclusion in distributed systems using Redis SET NX PX and the Redlock algorithm. Analysis of failure scenarios, clock drift vulnerabilities, and Redlock alternatives for fencing.",
+    "tags": ["Redis", "Distributed Systems", "Concurrency", "Backend"],
+    "author": "Aisha Kamara",
+    "date": "2024-03-12"
+  },
+  {
+    "title": "Building Internal Tools with Retool and Appsmith",
+    "content": "Low-code internal tooling platforms compared: Retool vs. Appsmith vs. Tooljet for CRUD dashboards, approval workflows, and database GUIs. When to build vs. buy for engineering productivity.",
+    "tags": ["Internal Tools", "Low-Code", "Retool", "Productivity"],
+    "author": "Bart Vermeulen",
+    "date": "2024-07-28"
+  },
+  {
+    "title": "Implementing OAuth 2.1 and PKCE",
+    "content": "OAuth 2.1 consolidates best practices: PKCE mandatory for all clients, no implicit flow, and strict redirect URI matching. Implementing with Keycloak and integrating with Next.js and mobile apps.",
+    "tags": ["OAuth", "Security", "Authentication", "Keycloak"],
+    "author": "Mei-Ling Chen",
+    "date": "2024-04-25"
+  },
+  {
+    "title": "Python Type Hints and mypy at Scale",
+    "content": "Incremental adoption of strict mypy across a 200k-line Python codebase. Plugin development, stub generation for third-party libraries, and CI enforcement with pre-commit hooks.",
+    "tags": ["Python", "Type Hints", "mypy", "Code Quality"],
+    "author": "Tobias Richter",
+    "date": "2024-06-10"
+  },
+  {
+    "title": "Kubernetes Networking Deep Dive",
+    "content": "Pod-to-pod communication, CNI plugins compared (Calico, Cilium, Flannel), NetworkPolicies for microsegmentation, and service mesh vs. CNI-native encryption. Lab setup with kind clusters.",
+    "tags": ["Kubernetes", "Networking", "CNI", "Cilium", "Service Mesh"],
+    "author": "Adaeze Obi",
+    "date": "2024-02-26"
+  },
+  {
+    "title": "Data Contracts and Schema Governance",
+    "content": "Establishing data contracts between producers and consumers with OpenDataContract and Great Expectations. Automated schema validation in CI, SLA tracking, and incident response for data quality failures.",
+    "tags": ["Data Contracts", "Data Quality", "Data Engineering", "Governance"],
+    "author": "Filip Novak",
+    "date": "2024-05-02"
+  },
+  {
+    "title": "Incident Management and Post-Mortems",
+    "content": "Running effective blameless post-mortems: five-whys analysis, action item tracking, and SLO review. Tooling with PagerDuty, Rootly, and Jira for incident timelines and MTTR dashboards.",
+    "tags": ["SRE", "Incident Management", "Post-Mortems", "DevOps"],
+    "author": "Rachel Kim",
+    "date": "2024-07-31"
+  },
+  {
+    "title": "HTMX and the Return of Hypermedia",
+    "content": "HTMX extends HTML with AJAX, WebSocket, and SSE attributes, enabling rich interactivity without JavaScript frameworks. Pairing with Go/FastAPI backends for server-rendered hypermedia applications.",
+    "tags": ["HTMX", "Frontend", "Hypermedia", "Go", "FastAPI"],
+    "author": "Sven Lindgren",
+    "date": "2024-01-29"
+  },
+  {
+    "title": "AI-Generated Test Data with LLMs",
+    "content": "Using LLMs to generate realistic synthetic datasets for testing edge cases, privacy-safe staging environments, and fuzz testing. Quality metrics and bias detection for AI-generated data pipelines.",
+    "tags": ["AI", "Testing", "Synthetic Data", "LLM", "Data Engineering"],
+    "author": "Priya Gupta",
+    "date": "2024-04-10"
+  },
+  {
+    "title": "Helm Chart Best Practices",
+    "content": "Structuring production-grade Helm charts: named templates, schema validation, library charts for DRY packaging, and Helm test hooks. Signing and provenance with Helm's chart verification tooling.",
+    "tags": ["Helm", "Kubernetes", "DevOps", "IaC"],
+    "author": "Julian Meza",
+    "date": "2024-06-28"
+  },
+  {
+    "title": "The Future of SQL: DuckDB and OLAP in a Box",
+    "content": "DuckDB brings columnar OLAP performance to in-process analytics: querying Parquet on S3, vectorized execution, and seamless pandas interop. Replacing heavyweight warehouses for small-to-mid analytics.",
+    "tags": ["DuckDB", "SQL", "Analytics", "OLAP", "Data Engineering"],
+    "author": "Cécile Roux",
+    "date": "2024-03-07"
+  },
+  {
+    "title": "Building AI Copilots with Retrieval and Memory",
+    "content": "Architecting domain-specific AI copilots with short-term working memory, episodic memory via vector stores, and long-term preference learning. Evaluation loops and human-in-the-loop correction patterns.",
+    "tags": ["AI Agents", "Memory", "RAG", "LLM", "Copilot"],
+    "author": "Daisuke Mori",
+    "date": "2024-07-06"
+  },
+  {
+    "title": "SLOs, Error Budgets, and Reliability Engineering",
+    "content": "Defining meaningful SLIs/SLOs for latency, availability, and data freshness. Error budget burn-rate alerting with Prometheus recording rules and automated freeze gates in deployment pipelines.",
+    "tags": ["SRE", "SLOs", "Reliability", "Prometheus", "DevOps"],
+    "author": "Funmilayo Adeola",
+    "date": "2024-02-11"
+  },
+  {
+    "title": "Advanced Git Workflows for Large Teams",
+    "content": "Trunk-based development, feature flags, and merge queues as alternatives to long-lived feature branches. GitHub's merge queue, Gitpod ephemeral workspaces, and commit signing with SSH keys.",
+    "tags": ["Git", "DevOps", "Team Workflow", "CI/CD"],
+    "author": "Brendan Walsh",
+    "date": "2024-05-19"
+  },
+  {
+    "title": "Zero-Downtime Deployments with Database Migrations",
+    "content": "Achieving zero-downtime schema changes: expand-contract pattern, online index builds in PostgreSQL, and backward-compatible ORM queries. Coordinating application and database rollouts in Kubernetes.",
+    "tags": ["Database", "Migrations", "DevOps", "PostgreSQL", "Kubernetes"],
+    "author": "Adrien Bernard",
+    "date": "2024-03-23"
+  },
+  {
+    "title": "Embeddings: From Word2Vec to Modern Encoders",
+    "content": "Evolution of text embeddings from Word2Vec and GloVe to BERT-based and matryoshka embeddings. Practical guide to choosing embedding models for semantic search, clustering, and classification tasks.",
+    "tags": ["Embeddings", "NLP", "AI", "Semantic Search"],
+    "author": "Min-Ji Lee",
+    "date": "2024-06-16"
+  },
+  {
+    "title": "Efficient Caching Strategies for Web APIs",
+    "content": "HTTP caching headers, CDN edge caching, and application-layer caching with Redis. Cache invalidation strategies: TTL, event-driven purging, and surrogate keys for fine-grained cache control.",
+    "tags": ["Caching", "Redis", "API", "Performance", "CDN"],
+    "author": "Olu Adeyemi",
+    "date": "2024-01-14"
+  },
+  {
+    "title": "Data Engineering with Polars",
+    "content": "Polars' lazy evaluation and Rust-based execution engine outperform pandas on large DataFrames. Practical guide to expression-based transformations, streaming mode, and Parquet I/O optimization.",
+    "tags": ["Polars", "Data Engineering", "Python", "Rust", "Analytics"],
+    "author": "Theresa Becker",
+    "date": "2024-04-26"
+  },
+  {
+    "title": "Asynchronous Job Queues with Celery and Redis",
+    "content": "Celery task routing, priority queues, and chord/chain primitives for complex async workflows in Python. Beat scheduler patterns and monitoring with Flower and Prometheus exporters.",
+    "tags": ["Celery", "Redis", "Python", "Async", "Job Queue"],
+    "author": "Javier Morales",
+    "date": "2024-07-13"
+  },
+  {
+    "title": "Infrastructure Testing with Terratest",
+    "content": "Writing Go-based integration tests for Terraform modules using Terratest. Testing VPC configurations, ECS task definitions, and RDS parameter groups in ephemeral AWS environments with cleanup.",
+    "tags": ["Terraform", "Terratest", "Testing", "IaC", "AWS"],
+    "author": "Nkechi Okonkwo",
+    "date": "2024-02-08"
+  },
+  {
+    "title": "Conversational AI UX Design Principles",
+    "content": "Designing effective chat interfaces for LLM applications: response streaming, regeneration affordances, citation display, and graceful handling of refusals. Accessibility requirements for AI chat UIs.",
+    "tags": ["UX Design", "AI", "LLM", "Chatbot", "Frontend"],
+    "author": "Yuki Hayashi",
+    "date": "2024-05-30"
+  },
+  {
+    "title": "Scaling WebSocket Infrastructure",
+    "content": "Horizontal scaling of WebSocket servers with sticky sessions via Nginx and Traefik, Redis Pub/Sub for message fan-out, and connection draining for zero-downtime deployments of stateful servers.",
+    "tags": ["WebSockets", "Scaling", "Redis", "Nginx", "Backend"],
+    "author": "Erin Murphy",
+    "date": "2024-03-17"
+  },
+  {
+    "title": "Machine Learning on the Edge with TensorFlow Lite",
+    "content": "Optimizing TensorFlow models for edge devices: quantization-aware training, pruning, and conversion to TFLite flatbuffers. Benchmarks on Raspberry Pi 5 and NVIDIA Jetson Nano.",
+    "tags": ["Edge AI", "TensorFlow Lite", "MLOps", "Embedded"],
+    "author": "Dieter Krause",
+    "date": "2024-06-24"
+  },
+  {
+    "title": "Building Event Sourcing Systems",
+    "content": "Event sourcing with EventStoreDB: projections, snapshots, and catch-up subscriptions. CQRS read-model rebuilding, event schema versioning, and handling temporal coupling in saga orchestration.",
+    "tags": ["Event Sourcing", "CQRS", "EventStoreDB", "Architecture"],
+    "author": "Lindiwe Dlamini",
+    "date": "2024-01-07"
+  },
+  {
+    "title": "React Native Performance Optimization",
+    "content": "Eliminating JS thread bottlenecks with the New Architecture (Fabric + JSI), Hermes engine tuning, and FlashList for virtualized lists. Profiling with Flipper and React DevTools Profiler on iOS/Android.",
+    "tags": ["React Native", "Mobile", "Performance", "iOS", "Android"],
+    "author": "Patrick Osei",
+    "date": "2024-04-03"
+  },
+  {
+    "title": "Generative AI for Enterprise Search",
+    "content": "Replacing keyword search with hybrid semantic + lexical retrieval, LLM-generated answer snippets, and source attribution UI. Evaluation framework for measuring user satisfaction and answer accuracy.",
+    "tags": ["Enterprise Search", "AI", "RAG", "Semantic Search", "LLM"],
+    "author": "Sandra Weiss",
+    "date": "2024-07-17"
+  },
+  {
+    "title": "DevEx Metrics: SPACE and DORA",
+    "content": "Measuring developer experience with the SPACE framework (Satisfaction, Performance, Activity, Communication, Efficiency) alongside DORA metrics. Tooling with LinearB, Jellyfish, and Swarmia.",
+    "tags": ["Developer Experience", "DevOps", "DORA", "Metrics"],
+    "author": "Amara Nwosu",
+    "date": "2024-02-29"
+  },
+  {
+    "title": "Passwordless Authentication with Passkeys",
+    "content": "WebAuthn and FIDO2 passkey implementation with platform authenticators. Relying party server setup, credential storage, attestation verification, and user journey design for passkey onboarding.",
+    "tags": ["Authentication", "Passkeys", "WebAuthn", "Security"],
+    "author": "Guillaume Petit",
+    "date": "2024-05-08"
+  },
+  {
+    "title": "Structured Outputs and JSON Mode in LLMs",
+    "content": "Reliable JSON generation from LLMs using constrained decoding, grammar-guided sampling, and JSON schema enforcement. Libraries compared: Outlines, Instructor, and Guidance for structured extraction.",
+    "tags": ["LLM", "Structured Outputs", "JSON", "AI", "Prompt Engineering"],
+    "author": "Soo-Jin Bae",
+    "date": "2024-06-05"
+  },
+  {
+    "title": "Kubernetes Multi-Cluster Management",
+    "content": "Federation strategies with Liqo, Clusternet, and ArgoCD ApplicationSets for managing workloads across regional clusters. Failover routing with Gateway API and global load balancing.",
+    "tags": ["Kubernetes", "Multi-Cluster", "Federation", "Cloud Native"],
+    "author": "Anastasia Volkova",
+    "date": "2024-03-01"
+  },
+  {
+    "title": "Automated Security Scanning in CI/CD",
+    "content": "Integrating SAST (Semgrep, CodeQL), DAST (OWASP ZAP), dependency scanning (Trivy, OWASP Dependency-Check), and container image scanning into GitHub Actions pipelines with actionable PR annotations.",
+    "tags": ["Security", "DevSecOps", "CI/CD", "SAST", "DAST"],
+    "author": "Olumide Adegoke",
+    "date": "2024-07-01"
+  },
+  {
+    "title": "Efficient Python with Cython and Numba",
+    "content": "Accelerating numerical Python code with Cython type annotations and Numba JIT compilation. When to reach for each tool: Cython for C extension modules, Numba for GPU-accelerated array operations.",
+    "tags": ["Python", "Cython", "Numba", "Performance", "HPC"],
+    "author": "Renata Kowalska",
+    "date": "2024-01-31"
+  },
+  {
+    "title": "Designing Idempotent APIs",
+    "content": "Idempotency keys for safe retries in payment and order APIs. Server-side deduplication with Redis and Postgres, idempotent consumers in Kafka, and testing strategies for retry safety.",
+    "tags": ["API Design", "Idempotency", "Backend", "Payments", "Reliability"],
+    "author": "Samuel Amoah",
+    "date": "2024-04-21"
+  },
+  {
+    "title": "LLM Observability with LangSmith and Helicone",
+    "content": "Tracing, debugging, and evaluating LLM applications in production. Comparing LangSmith, Helicone, and Arize Phoenix for prompt version tracking, latency analysis, and feedback collection.",
+    "tags": ["LLM", "Observability", "LangSmith", "MLOps", "AI"],
+    "author": "Elisa Brunetti",
+    "date": "2024-06-08"
+  },
+  {
+    "title": "Real-Time Analytics with ClickHouse",
+    "content": "ClickHouse's columnar storage and vectorized query execution enable sub-second analytics on billions of rows. Table engines, materialized views, and ReplacingMergeTree for event deduplication.",
+    "tags": ["ClickHouse", "Analytics", "OLAP", "Real-Time", "Database"],
+    "author": "Ting-Wei Liu",
+    "date": "2024-02-16"
+  },
+  {
+    "title": "Code Generation with LLMs: Pitfalls and Patterns",
+    "content": "Practical patterns for LLM-assisted code generation: few-shot examples, self-critique loops, and test-driven generation. Analysis of security vulnerabilities and quality regressions in AI-generated code.",
+    "tags": ["LLM", "Code Generation", "AI", "DevTools", "Security"],
+    "author": "Jacques Moreau",
+    "date": "2024-05-16"
+  },
+  {
+    "title": "Advanced Prometheus and Alertmanager",
+    "content": "Recording rules for expensive aggregations, multi-window multi-burn-rate alerts, and Alertmanager routing trees with inhibition and silencing. Thanos for long-term storage and global query view.",
+    "tags": ["Prometheus", "Alertmanager", "Observability", "SRE", "Thanos"],
+    "author": "Natasha Ivanova",
+    "date": "2024-03-28"
+  },
+  {
+    "title": "OpenAPI-First API Development",
+    "content": "Defining APIs with OpenAPI 3.1 before writing code: contract-first development with server stub generation (oapi-codegen for Go, FastAPI for Python) and consumer-driven testing.",
+    "tags": ["OpenAPI", "API Design", "Go", "FastAPI", "Testing"],
+    "author": "Joachim Fischer",
+    "date": "2024-07-21"
+  },
+  {
+    "title": "Quantum Computing for Software Engineers",
+    "content": "A practical introduction to quantum circuits, qubits, and superposition for classical software engineers. Hands-on with Qiskit: implementing Grover's search and the Bernstein-Vazirani algorithm.",
+    "tags": ["Quantum Computing", "Qiskit", "Algorithms", "Education"],
+    "author": "Chidinma Eze",
+    "date": "2024-01-26"
+  },
+  {
+    "title": "Nx Monorepo for Full-Stack Teams",
+    "content": "Nx's computation caching, affected graph, and distributed task execution slash build times for monorepos containing React frontends, Node.js APIs, and shared TypeScript libraries.",
+    "tags": ["Nx", "Monorepo", "TypeScript", "DevOps", "CI/CD"],
+    "author": "Lorenzo Conti",
+    "date": "2024-04-29"
+  },
+  {
+    "title": "Memory-Efficient Transformers",
+    "content": "Reducing transformer memory footprint with Flash Attention 2, gradient checkpointing, and mixed-precision training. Activation offloading to CPU and memory-efficient fine-tuning with PEFT.",
+    "tags": ["Transformers", "AI", "Memory Optimization", "LLM", "Training"],
+    "author": "Sun-Young Oh",
+    "date": "2024-06-27"
+  },
+  {
+    "title": "API Gateway Patterns with Kong and Envoy",
+    "content": "Comparing Kong and Envoy as API gateway solutions: plugin ecosystems, xDS dynamic configuration, and WebAssembly extensions. Rate limiting, JWT validation, and request transformation at the edge.",
+    "tags": ["API Gateway", "Kong", "Envoy", "Microservices", "Architecture"],
+    "author": "Brigitte Hoffman",
+    "date": "2024-02-04"
+  },
+  {
+    "title": "Continuous Delivery for Machine Learning",
+    "content": "CI/CD for ML models: data validation gates, model training pipelines in GitHub Actions, automated evaluation, and canary deployments with traffic splitting for model serving endpoints.",
+    "tags": ["MLOps", "CI/CD", "Machine Learning", "DevOps"],
+    "author": "Adebayo Okafor",
+    "date": "2024-05-24"
+  },
+  {
+    "title": "Python 3.12 What's New",
+    "content": "Python 3.12 ships subinterpreter-based parallelism (PEP 684), per-interpreter GIL, improved f-string parsing, and better error messages. Performance benchmarks show 5% speedup over 3.11 across workloads.",
+    "tags": ["Python", "Python 3.12", "Performance", "Language Features"],
+    "author": "Helena Berg",
+    "date": "2024-03-06"
+  },
+  {
+    "title": "Knowledge Graphs and Graph RAG",
+    "content": "Combining knowledge graphs (Neo4j, Wikidata) with vector retrieval for structured-plus-unstructured RAG. Entity linking, relation extraction with LLMs, and Graph RAG query patterns with Cypher.",
+    "tags": ["Knowledge Graphs", "Graph RAG", "Neo4j", "LLM", "RAG"],
+    "author": "Kwabena Asante",
+    "date": "2024-07-09"
+  },
+  {
+    "title": "Running Stateful Workloads on Kubernetes",
+    "content": "StatefulSets, PersistentVolumeClaims, and storage classes for databases on Kubernetes. Operator pattern deep dive with the Postgres Operator and MongoDB Community Operator lifecycle management.",
+    "tags": ["Kubernetes", "StatefulSets", "Databases", "Operators"],
+    "author": "Dorota Wieczorek",
+    "date": "2024-01-04"
+  },
+  {
+    "title": "Efficient Frontend Build Pipelines with Vite",
+    "content": "Vite's ESM-native dev server and Rollup-powered production builds. Plugin ecosystem, library mode for distributing npm packages, and optimizing chunk splitting for code-split Next.js alternatives.",
+    "tags": ["Vite", "Frontend", "Build Tools", "JavaScript"],
+    "author": "Fabio Esposito",
+    "date": "2024-04-15"
+  },
+  {
+    "title": "Debugging Production Issues with Distributed Tracing",
+    "content": "Root cause analysis workflow: correlating traces, logs, and metrics in Grafana Cloud. Using trace exemplars to link Prometheus alerts to specific request traces for latency regression investigation.",
+    "tags": ["Debugging", "Distributed Tracing", "Observability", "Grafana"],
+    "author": "Tolu Adisa",
+    "date": "2024-06-21"
+  },
+  {
+    "title": "AI Writing Assistants in Developer Workflows",
+    "content": "Integrating AI writing tools into technical documentation workflows: spec generation from code, changelog drafting, and ADR writing with LLM assistance. Quality gates and human review processes.",
+    "tags": ["AI", "Developer Productivity", "Documentation", "LLM"],
+    "author": "Miroslava Horak",
+    "date": "2024-07-26"
+  },
+  {
+    "title": "Postgres as a Message Queue with SKIP LOCKED",
+    "content": "Implementing a reliable job queue directly in PostgreSQL using SKIP LOCKED, advisory locks, and LISTEN/NOTIFY. Comparing Postgres-backed queues (pgmq, River) to dedicated queue systems for moderate throughput.",
+    "tags": ["PostgreSQL", "Message Queue", "Backend", "Architecture"],
+    "author": "Emeka Nnaji",
+    "date": "2024-02-27"
+  },
+  {
+    "title": "The Art of API Documentation",
+    "content": "Writing developer-friendly API documentation: conceptual guides, reference docs, and interactive playgrounds with Redoc and Scalar. Automated doc generation from OpenAPI specs and code comments.",
+    "tags": ["API Documentation", "Developer Experience", "OpenAPI", "Technical Writing"],
+    "author": "Sophie Girard",
+    "date": "2024-05-07"
+  },
+  {
+    "title": "Inference Optimization: KV Cache and Speculative Decoding",
+    "content": "Techniques for reducing LLM inference latency: KV-cache management, continuous batching, and speculative decoding with draft models. vLLM architecture overview and throughput benchmarks.",
+    "tags": ["LLM", "Inference", "Performance", "vLLM", "AI"],
+    "author": "Min-Ho Choi",
+    "date": "2024-06-13"
+  },
+  {
+    "title": "Infrastructure as Code with Pulumi",
+    "content": "Pulumi uses general-purpose languages (TypeScript, Go, Python) instead of DSLs for infrastructure definition. Comparing Pulumi stacks, state management, and testing patterns against Terraform.",
+    "tags": ["IaC", "Pulumi", "DevOps", "Cloud", "TypeScript"],
+    "author": "Adaora Eze",
+    "date": "2024-03-16"
+  },
+  {
+    "title": "Stream Processing with Kafka Streams",
+    "content": "Kafka Streams topology design: stateless transformations, KTable joins, windowed aggregations, and exactly-once processing. Comparing Kafka Streams vs. Flink for stateful microservice stream processing.",
+    "tags": ["Kafka", "Kafka Streams", "Stream Processing", "Data Engineering"],
+    "author": "Erik Lindqvist",
+    "date": "2024-07-03"
+  },
+  {
+    "title": "Testing AI Systems: Beyond Unit Tests",
+    "content": "Evaluation-driven development for AI: golden dataset curation, LLM-as-judge scoring, regression suites for model updates, and red-teaming pipelines for safety and quality assurance.",
+    "tags": ["AI Testing", "LLM", "Evaluation", "Quality Assurance"],
+    "author": "Rania Hassan",
+    "date": "2024-01-18"
+  },
+  {
+    "title": "Multi-Agent Systems with AutoGen and CrewAI",
+    "content": "Orchestrating cooperative multi-agent workflows with AutoGen and CrewAI: role assignment, inter-agent communication protocols, shared memory, and human-in-the-loop checkpoints for complex reasoning tasks.",
+    "tags": ["AI Agents", "Multi-Agent", "AutoGen", "CrewAI", "LLM"],
+    "author": "Carlos Herrera",
+    "date": "2024-04-28"
+  },
+  {
+    "title": "Service Mesh with Istio",
+    "content": "Istio sidecar injection, traffic management with VirtualServices and DestinationRules, mTLS enforcement, and Envoy-based telemetry. Migrating from DIY mTLS to Istio in a 40-service production cluster.",
+    "tags": ["Istio", "Service Mesh", "Kubernetes", "mTLS", "Microservices"],
+    "author": "Federica Marino",
+    "date": "2024-06-02"
+  },
+  {
+    "title": "Accelerating Data Loading with Apache Arrow",
+    "content": "Apache Arrow's columnar in-memory format eliminates serialization overhead between analytics libraries. Arrow Flight for high-throughput data transfer and integrating Arrow with DuckDB, Polars, and Spark.",
+    "tags": ["Apache Arrow", "Data Engineering", "Analytics", "Performance"],
+    "author": "Taiwo Omotosho",
+    "date": "2024-02-13"
+  },
+  {
+    "title": "Building a Custom Kubernetes Operator",
+    "content": "Writing a Kubernetes operator with controller-runtime and kubebuilder: CRD design, reconciliation loops, status conditions, and webhook validation. Testing operators with envtest and integration test suites.",
+    "tags": ["Kubernetes", "Operator", "Go", "Cloud Native", "CRD"],
+    "author": "Paola Giordano",
+    "date": "2024-05-22"
+  },
+  {
+    "title": "Functional CSS at Scale with Tailwind",
+    "content": "Managing design consistency at scale with Tailwind CSS: custom design tokens, component extraction with @apply, and Tailwind Merge for conditional class composition in React component libraries.",
+    "tags": ["Tailwind CSS", "Frontend", "CSS", "Design Systems"],
+    "author": "Michael Oduya",
+    "date": "2024-03-25"
+  },
+  {
+    "title": "High-Performance Networking with io_uring",
+    "content": "Linux io_uring enables async I/O with minimal syscall overhead. Implementing a high-throughput TCP server in Rust using tokio-uring, benchmarked against epoll-based alternatives at 1M connections.",
+    "tags": ["io_uring", "Linux", "Networking", "Rust", "Performance"],
+    "author": "Oksana Shevchenko",
+    "date": "2024-07-14"
+  },
+  {
+    "title": "Document Intelligence with LLMs",
+    "content": "Extracting structured information from PDFs, invoices, and contracts using multimodal LLMs. Comparison of Azure Document Intelligence, AWS Textract, and prompt-based extraction with Claude and GPT-4o.",
+    "tags": ["Document Intelligence", "LLM", "OCR", "AI", "Multimodal"],
+    "author": "Abdoulaye Diallo",
+    "date": "2024-01-10"
+  },
+  {
+    "title": "Benchmarking and Load Testing APIs",
+    "content": "Load testing strategies with k6, Locust, and Gatling: scripting realistic user journeys, threshold-based CI checks, and interpreting percentile latency under load. Identifying database connection pool exhaustion.",
+    "tags": ["Load Testing", "Performance", "k6", "API", "DevOps"],
+    "author": "Astrid Eriksen",
+    "date": "2024-04-06"
+  },
+  {
+    "title": "Multimodal AI: Vision and Language",
+    "content": "Architectures behind vision-language models (VLMs): image tokenization, cross-attention, and instruction tuning. Use cases: document understanding, chart Q&A, video frame analysis, and visual agents.",
+    "tags": ["Multimodal AI", "VLM", "Vision", "LLM", "AI"],
+    "author": "Jin-Woo Park",
+    "date": "2024-06-29"
+  },
+  {
+    "title": "Node.js 22 Features and Ecosystem Updates",
+    "content": "Node.js 22 promotes the native test runner, adds --watch mode, and includes experimental type stripping. ESM adoption status, performance improvements in the V8 engine, and native fetch API maturity.",
+    "tags": ["Node.js", "JavaScript", "Backend", "Runtime"],
+    "author": "Abena Asante",
+    "date": "2024-03-14"
+  },
+  {
+    "title": "Trino for Federated Query Across Data Sources",
+    "content": "Trino connectors for querying Hive, Iceberg, Delta Lake, PostgreSQL, and Kafka in a single SQL statement. Cost-based optimizer, dynamic filtering, and cluster sizing for interactive data exploration.",
+    "tags": ["Trino", "Federated Query", "Data Engineering", "SQL", "Analytics"],
+    "author": "Luca Ferretti",
+    "date": "2024-07-27"
+  },
+  {
+    "title": "Security Headers and Content Security Policy",
+    "content": "Hardening web applications with CSP, HSTS, Permissions-Policy, and Referrer-Policy. Report-Only mode for safe CSP rollout, nonce-based script allowlisting, and automated header audits in CI.",
+    "tags": ["Security", "CSP", "Web Security", "HSTS", "Frontend"],
+    "author": "Akira Shimizu",
+    "date": "2024-02-06"
+  },
+  {
+    "title": "Data Version Control with DVC",
+    "content": "DVC tracks large datasets and ML model artifacts alongside code in Git. Pipeline DAGs with dvc run, remote storage backends (S3, GCS), and experiment management with dvc exp for hyperparameter sweeps.",
+    "tags": ["DVC", "MLOps", "Data Engineering", "Git", "Machine Learning"],
+    "author": "Chinyere Okeke",
+    "date": "2024-05-15"
+  },
+  {
+    "title": "GraphQL Subscriptions at Scale",
+    "content": "Real-time GraphQL with subscriptions over WebSockets and SSE. Scaling subscription servers with Redis Pub/Sub, filter logic at the resolver level, and load testing with k6 WebSocket scenarios.",
+    "tags": ["GraphQL", "Subscriptions", "Real-Time", "WebSockets", "Backend"],
+    "author": "Tobias Hansen",
+    "date": "2024-07-05"
+  },
+  {
+    "title": "Cryptography Fundamentals for Engineers",
+    "content": "Practical cryptography for software engineers: symmetric vs. asymmetric encryption, AES-GCM, RSA vs. ECDSA, and safe usage of cryptographic libraries. Common pitfalls: nonce reuse, padding oracle attacks.",
+    "tags": ["Cryptography", "Security", "Backend", "Education"],
+    "author": "Yasmin Al-Khalil",
+    "date": "2024-01-24"
+  },
+  {
+    "title": "Building a Recommendation Engine",
+    "content": "Collaborative filtering, content-based filtering, and two-tower neural models for recommendation. Offline evaluation with NDCG and MAP, online A/B testing, and real-time feature serving with Redis.",
+    "tags": ["Recommendation Systems", "Machine Learning", "AI", "Redis"],
+    "author": "Emmanuel Nkrumah",
+    "date": "2024-04-23"
+  },
+  {
+    "title": "Low-Latency Finance Systems in Java",
+    "content": "Chronicle Queue, Aeron, and LMAX Disruptor for microsecond-latency trading systems in Java. CPU affinity, OS tuning (isolcpus, kernel bypass), and measuring jitter with HdrHistogram.",
+    "tags": ["Java", "Low Latency", "Finance", "Performance", "Systems Programming"],
+    "author": "Pierre Laurent",
+    "date": "2024-06-26"
+  },
+  {
+    "title": "Developer Tooling with Language Server Protocol",
+    "content": "Implementing a custom LSP server in Go to bring IDE features (autocomplete, go-to-definition, hover docs) to domain-specific languages. Protocol overview, debugging with lsp-trace, and VSCode extension packaging.",
+    "tags": ["LSP", "Developer Tooling", "Go", "IDE", "DevTools"],
+    "author": "Chisom Nwosu",
+    "date": "2024-03-21"
+  },
+  {
+    "title": "Privacy-Preserving ML with Federated Learning",
+    "content": "Federated learning enables model training across distributed devices without centralizing raw data. PySyft and Flower frameworks, differential privacy with noise injection, and gradient compression techniques.",
+    "tags": ["Federated Learning", "Privacy", "Machine Learning", "AI", "Security"],
+    "author": "Signe Rasmussen",
+    "date": "2024-07-16"
+  },
+  {
+    "title": "Resilient Architecture with the Saga Pattern",
+    "content": "Managing distributed transactions with choreography-based and orchestration-based sagas. Compensating transactions, timeout handling, and implementing sagas with Temporal.io workflow engine.",
+    "tags": ["Saga Pattern", "Distributed Systems", "Temporal", "Architecture", "Microservices"],
+    "author": "Arjun Patel",
+    "date": "2024-01-16"
+  },
+  {
+    "title": "AI-Powered Accessibility Testing",
+    "content": "Using vision-language models to automate WCAG 2.2 accessibility audits: alt-text quality checks, color contrast analysis, keyboard navigation testing, and generating remediation suggestions.",
+    "tags": ["Accessibility", "AI", "Testing", "Frontend", "WCAG"],
+    "author": "Zainab Oyelaran",
+    "date": "2024-04-12"
+  },
+  {
+    "title": "Apache Spark Structured Streaming",
+    "content": "Micro-batch and continuous processing modes in Spark Structured Streaming. Kafka source integration, watermarking for late data, and checkpointing strategies for fault-tolerant streaming pipelines.",
+    "tags": ["Spark", "Streaming", "Kafka", "Data Engineering"],
+    "author": "Bart Janssen",
+    "date": "2024-06-15"
+  },
+  {
+    "title": "Rust Async Ecosystem: Tokio Deep Dive",
+    "content": "Tokio's multi-threaded scheduler, task spawning, and select! macro for concurrent I/O. Pinning, Waker internals, and writing custom Future implementations for low-level async control flow.",
+    "tags": ["Rust", "Tokio", "Async", "Systems Programming"],
+    "author": "Ama Asante",
+    "date": "2024-02-24"
+  },
+  {
+    "title": "Designing for Failure: Chaos in Production",
+    "content": "Game days, chaos experiments, and disaster recovery testing in regulated industries. Tools: AWS FIS, Gremlin, and Chaos Toolkit. Governance frameworks for safe chaos experimentation in finance and healthcare.",
+    "tags": ["Chaos Engineering", "SRE", "Resilience", "AWS", "Disaster Recovery"],
+    "author": "Stefan Novak",
+    "date": "2024-05-28"
+  },
+  {
+    "title": "Smart Contract Security Auditing",
+    "content": "Common Solidity vulnerabilities: reentrancy, integer overflow, front-running, and access control flaws. Static analysis with Slither, fuzzing with Echidna, and formal verification with Certora Prover.",
+    "tags": ["Web3", "Smart Contracts", "Security", "Solidity", "Blockchain"],
+    "author": "Taiwo Adewale",
+    "date": "2024-03-09"
+  },
+  {
+    "title": "Building a Search Engine from Scratch",
+    "content": "Inverted index construction, TF-IDF and BM25 scoring, and query parsing. Implementing a mini search engine in Go: tokenization, stemming, index compression, and query expansion techniques.",
+    "tags": ["Search", "Information Retrieval", "Go", "Algorithms"],
+    "author": "Valentina Rossi",
+    "date": "2024-07-20"
+  },
+  {
+    "title": "Progressive Enhancement in Modern Web Development",
+    "content": "Building web apps that work without JavaScript and enhance progressively. Server-rendered HTML with Astro, Islands Architecture for selective hydration, and form handling with native browser APIs.",
+    "tags": ["Progressive Enhancement", "Astro", "Frontend", "Web Standards"],
+    "author": "Kofi Boateng",
+    "date": "2024-01-21"
+  },
+  {
+    "title": "Time Series Analysis with InfluxDB",
+    "content": "InfluxDB 3.0 with Apache Arrow Flight SQL for IoT telemetry storage and analytics. Flux query language, downsampling tasks, and anomaly detection with built-in ML functions for sensor data.",
+    "tags": ["InfluxDB", "Time Series", "IoT", "Analytics", "Database"],
+    "author": "Marika Sato",
+    "date": "2024-04-09"
+  },
+  {
+    "title": "Serverless Databases: PlanetScale, Neon, Turso",
+    "content": "Comparing serverless database offerings: PlanetScale's branching workflow, Neon's autoscale-to-zero PostgreSQL, and Turso's edge SQLite. Latency, cold start, pricing, and migration considerations.",
+    "tags": ["Serverless", "Database", "PostgreSQL", "SQLite", "Cloud"],
+    "author": "Ibrahim Traoré",
+    "date": "2024-06-23"
+  },
+  {
+    "title": "Kotlin Coroutines for Android Development",
+    "content": "Structured concurrency with Kotlin coroutines: CoroutineScope lifecycle management in ViewModels, Flow for reactive streams, and testing coroutines with TestDispatcher. Replacing RxJava migration guide.",
+    "tags": ["Kotlin", "Android", "Coroutines", "Mobile"],
+    "author": "Lieselotte Vogel",
+    "date": "2024-02-01"
+  },
+  {
+    "title": "Code Intelligence Platforms: GitHub Copilot vs. Cursor",
+    "content": "Comparing code intelligence platforms: Copilot Workspace, Cursor Composer, and Codeium. Accuracy on real-world tasks, context window utilization, and impact on developer velocity from controlled studies.",
+    "tags": ["AI", "Code Intelligence", "Developer Productivity", "GitHub Copilot", "Cursor"],
+    "author": "Nneka Obi",
+    "date": "2024-07-29"
+  },
+  {
+    "title": "Designing Accessible React Components",
+    "content": "ARIA roles, live regions, and focus management patterns for accessible React UIs. Building a fully accessible combobox, modal dialog, and data table with React Aria and Radix UI primitives.",
+    "tags": ["Accessibility", "React", "ARIA", "Frontend", "UI Components"],
+    "author": "Gustav Lindqvist",
+    "date": "2024-03-19"
+  },
+  {
+    "title": "The Economics of AI Inference",
+    "content": "Cost-per-token analysis across GPU cloud providers, quantization impact on quality vs. cost, and ROI modeling for self-hosted vs. API inference. FinOps strategies for high-volume LLM production workloads.",
+    "tags": ["AI", "LLM", "FinOps", "Cost Optimization", "Inference"],
+    "author": "Olamide Fashola",
+    "date": "2024-05-26"
+  },
+  {
+    "title": "Observing Databases with pg_activity and pg_stat_monitor",
+    "content": "Real-time Postgres query monitoring with pg_activity, and advanced query analytics with pg_stat_monitor vs. pg_stat_statements. Building Grafana dashboards for slow query tracking and lock contention.",
+    "tags": ["PostgreSQL", "Observability", "Database", "Grafana", "Performance"],
+    "author": "Cecilia Andersson",
+    "date": "2024-01-13"
+  },
+  {
+    "title": "Building Real-Time Dashboards with Grafana",
+    "content": "Grafana dashboard design patterns: variable templating, dynamic panels, and alert-linked annotations. Live streaming panels with Grafana Live, and embedding dashboards in internal SaaS products.",
+    "tags": ["Grafana", "Dashboards", "Observability", "Real-Time", "Analytics"],
+    "author": "Bayo Ajibola",
+    "date": "2024-04-16"
+  },
+  {
+    "title": "Test-Driven Development in Go",
+    "content": "Table-driven tests, subtests, and the testify library in Go. Mocking with gomock and testcontainers for integration tests. Benchmarking with testing.B and profiling test binaries with pprof.",
+    "tags": ["Go", "TDD", "Testing", "Software Engineering"],
+    "author": "Agnes Müller",
+    "date": "2024-07-11"
+  },
+  {
+    "title": "Scalable Background Jobs with Sidekiq Pro",
+    "content": "Sidekiq Pro's batches, throttling, and job dependencies for complex background workflows in Ruby on Rails. Monitoring with Sidekiq Web UI and Datadog APM integration for job latency alerting.",
+    "tags": ["Ruby", "Sidekiq", "Background Jobs", "Rails", "Performance"],
+    "author": "Oluwaseun Adeyemi",
+    "date": "2024-02-25"
+  },
+  {
+    "title": "Formal Methods for Software Engineers",
+    "content": "An accessible introduction to formal specification with TLA+ and Alloy. Modeling distributed protocols, finding invariant violations, and translating formal models into implementation guardrails.",
+    "tags": ["Formal Methods", "TLA+", "Distributed Systems", "Correctness"],
+    "author": "Anita Borg",
+    "date": "2024-06-04"
+  },
+  {
+    "title": "Modern JavaScript Toolchain: Biome, oxc, and Rolldown",
+    "content": "The Rust-based JS toolchain revolution: Biome for linting/formatting, oxc for parsing and transforming, and Rolldown as a Rollup-compatible bundler. Benchmarks vs. ESLint, Prettier, and Webpack.",
+    "tags": ["JavaScript", "Toolchain", "Rust", "Frontend", "Build Tools"],
+    "author": "Onyeka Eze",
+    "date": "2024-03-31"
+  },
+  {
+    "title": "Federated Identity with OIDC and SAML",
+    "content": "Enterprise SSO patterns: SAML 2.0 and OIDC federation with Okta, Azure AD, and Keycloak. Just-in-time provisioning, SCIM 2.0 for user sync, and debugging federation issues with SAML tracer.",
+    "tags": ["Identity", "OIDC", "SAML", "SSO", "Security"],
+    "author": "Romain Blanc",
+    "date": "2024-07-24"
+  },
+  {
+    "title": "Large-Scale Python with PySpark",
+    "content": "Transitioning from pandas to PySpark for datasets exceeding memory limits. DataFrame API, UDFs vs. built-in functions performance, partition tuning, and deploying PySpark jobs on EMR and Dataproc.",
+    "tags": ["PySpark", "Python", "Big Data", "Spark", "Data Engineering"],
+    "author": "Adaeze Nwosu",
+    "date": "2024-01-28"
+  },
+  {
+    "title": "Building Multiplayer Games with WebSockets",
+    "content": "Authoritative server architecture for real-time multiplayer: tick-based game loop, client-side prediction, lag compensation, and delta compression for state synchronization over WebSocket connections.",
+    "tags": ["Game Development", "WebSockets", "Real-Time", "Networking"],
+    "author": "Takeshi Yamamoto",
+    "date": "2024-04-27"
+  },
+  {
+    "title": "Reliability Engineering for AI Systems",
+    "content": "SLOs for LLM services: latency, availability, and quality metrics. Graceful degradation when models are unavailable, circuit breakers for LLM API calls, and runbooks for common AI system failures.",
+    "tags": ["SRE", "AI", "LLM", "Reliability", "DevOps"],
+    "author": "Ngozi Abiodun",
+    "date": "2024-06-20"
+  },
+  {
+    "title": "Containerizing Legacy Applications",
+    "content": "Strategies for containerizing Java EE and .NET Framework applications: base image selection, dependency externalisation, 12-factor refactoring, and Kubernetes readiness/liveness probe design.",
+    "tags": ["Containers", "Docker", "Legacy", "Kubernetes", "DevOps"],
+    "author": "Peter Schneider",
+    "date": "2024-02-21"
+  },
+  {
+    "title": "Generative AI for Data Augmentation",
+    "content": "Using diffusion models and LLMs to augment scarce training datasets. Techniques: paraphrasing, back-translation, image synthesis, and quality filtering with embedding similarity thresholds.",
+    "tags": ["AI", "Data Augmentation", "Generative AI", "Machine Learning"],
+    "author": "Amara Coulibaly",
+    "date": "2024-05-29"
+  },
+  {
+    "title": "Reactive Architecture with Akka",
+    "content": "Actor model fundamentals, supervision hierarchies, and persistence with Akka Event Sourcing. Cluster sharding for distributed stateful actors and Akka Streams for backpressure-aware processing.",
+    "tags": ["Akka", "Actor Model", "Reactive", "Scala", "Architecture"],
+    "author": "Birgit Haugen",
+    "date": "2024-03-05"
+  },
+  {
+    "title": "Open Source LLM Fine-Tuning Infrastructure",
+    "content": "End-to-end infrastructure for fine-tuning open-source LLMs on-premises: GPU cluster provisioning with SLURM, distributed training with FSDP and DeepSpeed, and model registry with MLflow.",
+    "tags": ["LLM", "Fine-Tuning", "MLOps", "Open Source", "HPC"],
+    "author": "Chiamaka Okonkwo",
+    "date": "2024-07-30"
+  },
+  {
+    "title": "PostgreSQL Row-Level Security",
+    "content": "Implementing multi-tenant data isolation with PostgreSQL Row-Level Security: policy design, current_setting for tenant context, and performance implications of RLS on large tables with indexes.",
+    "tags": ["PostgreSQL", "Security", "Multi-Tenant", "Database", "RLS"],
+    "author": "Julien Moreau",
+    "date": "2024-01-09"
+  },
+  {
+    "title": "Building Data-Intensive Applications with Apache Pulsar",
+    "content": "Pulsar's tiered storage, multi-tenancy, and geo-replication differentiate it from Kafka for global deployments. Function framework for lightweight stream processing and comparison for event sourcing workloads.",
+    "tags": ["Apache Pulsar", "Kafka", "Streaming", "Data Engineering"],
+    "author": "Farida Mahmoud",
+    "date": "2024-04-24"
+  },
+  {
+    "title": "WebGL and Three.js for Data Visualization",
+    "content": "Rendering millions of data points in the browser with WebGL and Three.js: custom shaders, instanced meshes, and GPU-accelerated force-directed graph layouts for network topology visualization.",
+    "tags": ["WebGL", "Three.js", "Data Visualization", "Frontend", "Performance"],
+    "author": "Olumide Babatunde",
+    "date": "2024-06-18"
+  },
+  {
+    "title": "Autonomous Coding Agents: Devin and Alternatives",
+    "content": "Analysis of autonomous coding agents: Devin, SWE-agent, and OpenDevin. Benchmark results on SWE-bench, failure modes, human oversight requirements, and appropriate use cases in software teams.",
+    "tags": ["AI Agents", "Coding Agents", "LLM", "Developer Productivity", "AI"],
+    "author": "Suzanne Lebrun",
+    "date": "2024-07-23"
+  },
+  {
+    "title": "Distributed SQL with CockroachDB",
+    "content": "CockroachDB's Raft-based replication, serializable isolation, and geo-partitioning for global applications. Comparing performance and operational complexity against Spanner and distributed Postgres solutions.",
+    "tags": ["CockroachDB", "Distributed SQL", "Database", "Cloud Native"],
+    "author": "Obinna Eze",
+    "date": "2024-02-19"
+  },
+  {
+    "title": "Frontend State Management in 2024",
+    "content": "Comparing Zustand, Jotai, XState, and TanStack Query for different state management needs. Server state vs. client state vs. URL state, and the decline of Redux in modern React applications.",
+    "tags": ["React", "State Management", "Zustand", "TanStack Query", "Frontend"],
+    "author": "Iris de Vries",
+    "date": "2024-05-13"
+  },
+  {
+    "title": "SaaS Billing with Stripe and Usage-Based Pricing",
+    "content": "Implementing usage-based billing with Stripe Meters: metered subscriptions, invoice line items, and revenue recognition. Webhook reliability, idempotency, and testing billing logic without real charges.",
+    "tags": ["SaaS", "Stripe", "Billing", "Payments", "Backend"],
+    "author": "Chukwuemeka Obi",
+    "date": "2024-03-27"
+  },
+  {
+    "title": "Building NLP Pipelines with spaCy 3",
+    "content": "spaCy 3's config-driven training system and transformer-based components. Custom NER models, relation extraction, and building a production clinical text processing pipeline with GPU acceleration.",
+    "tags": ["NLP", "spaCy", "Machine Learning", "Python", "Named Entity Recognition"],
+    "author": "Hilde Bakke",
+    "date": "2024-07-07"
+  },
+  {
+    "title": "Asynchronous Communication in Engineering Teams",
+    "content": "Engineering team communication patterns for distributed and remote teams: RFCs, architectural decision records, async standups, and Loom video updates. Reducing meeting load with structured async reviews.",
+    "tags": ["Team Culture", "Async Communication", "Remote Work", "Engineering Management"],
+    "author": "Sade Akinwale",
+    "date": "2024-01-15"
+  },
+  {
+    "title": "Swift Concurrency and Actors",
+    "content": "Swift 5.9 structured concurrency: async/await, task groups, and actor isolation for data-race-free Swift code. Migrating Objective-C callback-based code and integrating with UIKit's main-thread model.",
+    "tags": ["Swift", "iOS", "Concurrency", "Actors", "Apple"],
+    "author": "Pedro Alves",
+    "date": "2024-04-18"
+  },
+  {
+    "title": "AI Integration Testing Patterns",
+    "content": "Strategies for testing AI-integrated systems without hitting live APIs every run: VCR-style cassette recording, deterministic mocking, golden output comparison, and canary tests against live endpoints.",
+    "tags": ["AI", "Testing", "Integration Testing", "LLM", "DevOps"],
+    "author": "Obiageli Onu",
+    "date": "2024-06-11"
+  },
+  {
+    "title": "Differential Privacy in Practice",
+    "content": "Applying differential privacy to production analytics: epsilon budgeting, the Laplace and Gaussian mechanisms, and Google's DP library. Trade-offs between privacy guarantees and query utility.",
+    "tags": ["Privacy", "Differential Privacy", "Analytics", "Security", "Data Engineering"],
+    "author": "Rasmus Andersen",
+    "date": "2024-07-18"
+  },
+  {
+    "title": "The Platform Product Manager",
+    "content": "Product management for internal developer platforms: understanding engineering productivity metrics, prioritizing tooling investments, and communicating platform value to executive stakeholders.",
+    "tags": ["Platform Engineering", "Product Management", "Developer Experience", "Leadership"],
+    "author": "Meredith Taylor",
+    "date": "2024-02-12"
+  },
+  {
+    "title": "NATS for Lightweight Messaging",
+    "content": "NATS and NATS JetStream as a lightweight alternative to Kafka for IoT, edge, and microservice messaging. Subject-based routing, consumer groups, key-value store, and object store capabilities.",
+    "tags": ["NATS", "Messaging", "IoT", "Microservices", "Backend"],
+    "author": "Ezekiel Adewumi",
+    "date": "2024-05-04"
+  },
+  {
+    "title": "Runtime Security with Falco",
+    "content": "Falco detects unexpected system calls, file system changes, and network activity in Kubernetes pods at runtime. Writing custom Falco rules, alert routing with Falcosidekick, and integration with SOC workflows.",
+    "tags": ["Security", "Falco", "Kubernetes", "Runtime Security", "DevSecOps"],
+    "author": "Annelise Brun",
+    "date": "2024-03-02"
+  },
+  {
+    "title": "Causal Inference for Engineers",
+    "content": "Using causal inference to evaluate product changes beyond naive A/B tests: difference-in-differences, instrumental variables, and regression discontinuity designs applied to real engineering decisions.",
+    "tags": ["Causal Inference", "A/B Testing", "Data Science", "Analytics", "Experimentation"],
+    "author": "Olabisi Adeyemi",
+    "date": "2024-07-19"
+  },
+  {
+    "title": "Headless CMS Architecture",
+    "content": "Choosing between Contentful, Sanity, and Strapi for headless CMS architectures. Content modeling, live preview with Next.js draft mode, and CDN-delivered structured content for omnichannel publishing.",
+    "tags": ["Headless CMS", "Content Management", "Next.js", "Architecture"],
+    "author": "Natacha Lefebvre",
+    "date": "2024-01-06"
+  },
+  {
+    "title": "GPU Programming with CUDA and Triton",
+    "content": "Introduction to CUDA kernel writing and OpenAI Triton for writing high-performance GPU kernels in Python. Optimizing matrix multiplication with tiling, shared memory, and warp-level primitives.",
+    "tags": ["CUDA", "Triton", "GPU", "HPC", "AI"],
+    "author": "Emeka Okonkwo",
+    "date": "2024-04-20"
+  },
+  {
+    "title": "AI-Driven Infrastructure Anomaly Detection",
+    "content": "Training ML models on time-series infrastructure metrics for unsupervised anomaly detection. LSTM autoencoders, Facebook Prophet for seasonality-aware baselines, and integrating alerts into PagerDuty.",
+    "tags": ["AI", "Anomaly Detection", "MLOps", "Observability", "SRE"],
+    "author": "Hana Szabo",
+    "date": "2024-06-07"
+  },
+  {
+    "title": "Building APIs with Hono on the Edge",
+    "content": "Hono is an ultra-lightweight web framework for edge runtimes (Cloudflare Workers, Deno, Bun). Middleware composition, RPC-style type-safe clients, and benchmarks vs. Express on Node.js.",
+    "tags": ["Hono", "Edge Computing", "API", "TypeScript", "Cloudflare"],
+    "author": "Oluwafemi Adesanya",
+    "date": "2024-02-17"
+  },
+  {
+    "title": "Elixir and Phoenix for Real-Time Systems",
+    "content": "Phoenix LiveView enables server-rendered real-time UIs with minimal JavaScript. Elixir's actor model via GenServer and OTP supervision trees for building fault-tolerant, scalable real-time applications.",
+    "tags": ["Elixir", "Phoenix", "Real-Time", "LiveView", "Backend"],
+    "author": "Fiona O'Sullivan",
+    "date": "2024-05-18"
+  },
+  {
+    "title": "Prompt Injection Attacks and Defenses",
+    "content": "Taxonomy of prompt injection attack vectors: direct, indirect, and multi-modal attacks on LLM agents. Defense strategies: input sanitization, sandboxed tool execution, and constitutional guardrails.",
+    "tags": ["Security", "Prompt Injection", "LLM", "AI Safety", "AI Agents"],
+    "author": "Adaora Nwosu",
+    "date": "2024-07-02"
+  },
+  {
+    "title": "Concurrency Patterns in Go",
+    "content": "Fan-in, fan-out, pipelines, and worker pool patterns in Go. Context propagation for cancellation, sync.ErrGroup for concurrent task management, and detecting goroutine leaks with goleak.",
+    "tags": ["Go", "Concurrency", "Patterns", "Backend"],
+    "author": "Lars Magnusson",
+    "date": "2024-03-13"
+  },
+  {
+    "title": "Database Connection Pooling Patterns",
+    "content": "PgBouncer vs. pgpool-II vs. application-level pooling (HikariCP, database/sql). Pool sizing formulas, connection lifecycle management, and diagnosing pool exhaustion with pg_stat_activity.",
+    "tags": ["Database", "Connection Pooling", "PostgreSQL", "Performance", "Backend"],
+    "author": "Oluchi Okafor",
+    "date": "2024-01-20"
+  },
+  {
+    "title": "Continuous Compliance with Open Policy Agent",
+    "content": "OPA and Rego for policy-as-code across Kubernetes admission, Terraform plan validation, and API authorization. Integrating Conftest into CI pipelines for continuous compliance enforcement.",
+    "tags": ["OPA", "Policy as Code", "Compliance", "Kubernetes", "DevSecOps"],
+    "author": "Bastian Krause",
+    "date": "2024-04-13"
+  },
+  {
+    "title": "Designing for Offline-First Applications",
+    "content": "Offline-first PWAs with IndexedDB, background sync, and conflict resolution strategies. CRDTs for peer-to-peer sync, PouchDB with CouchDB replication, and UX patterns for connectivity-aware apps.",
+    "tags": ["Offline-First", "PWA", "IndexedDB", "CRDT", "Frontend"],
+    "author": "Adaeze Okafor",
+    "date": "2024-06-22"
+  },
+  {
+    "title": "Onboarding Engineers Effectively",
+    "content": "Structured onboarding programs for software engineers: role-specific learning paths, pairing schedules, and 30-60-90 day milestone frameworks. Metrics for onboarding success and first-contribution velocity.",
+    "tags": ["Engineering Management", "Onboarding", "Culture", "Team Building"],
+    "author": "Thomas Eriksen",
+    "date": "2024-07-28"
+  },
+  {
+    "title": "Synthetic Monitoring with Grafana k6",
+    "content": "k6 scripts as executable documentation for critical user journeys: login flows, checkout, and search. Running k6 on Grafana Cloud for always-on synthetic monitoring with SLO-linked alerts.",
+    "tags": ["Synthetic Monitoring", "k6", "Grafana", "SRE", "DevOps"],
+    "author": "Abimbola Akins",
+    "date": "2024-03-10"
+  },
+  {
+    "title": "Immutable Infrastructure and GitOps",
+    "content": "Treating infrastructure as immutable: AMI baking with Packer, blue-green infrastructure swaps with Terraform, and GitOps-driven reconciliation with Flux for Kubernetes cluster state management.",
+    "tags": ["Immutable Infrastructure", "GitOps", "Packer", "Terraform", "Flux"],
+    "author": "Miriam Adeleke",
+    "date": "2024-07-15"
+  },
+  {
+    "title": "LLM Prompt Libraries and Versioning",
+    "content": "Managing prompts as code: semantic versioning, regression testing against golden datasets, and A/B testing prompt variants in production. Tools: Langfuse, PromptLayer, and custom GitHub-based workflows.",
+    "tags": ["LLM", "Prompt Engineering", "MLOps", "AI", "DevOps"],
+    "author": "Kristoffer Hansen",
+    "date": "2024-01-27"
+  },
+  {
+    "title": "Data Mesh: Principles and Implementation",
+    "content": "Implementing data mesh with domain-oriented ownership, data products, self-serve infrastructure, and federated governance. Tooling choices for data product catalogs, discovery, and SLA enforcement.",
+    "tags": ["Data Mesh", "Data Engineering", "Architecture", "Governance"],
+    "author": "Adaeze Eze",
+    "date": "2024-04-30"
+  },
+  {
+    "title": "Building CLI Tools with Python and Typer",
+    "content": "Typer leverages Python type hints for declarative CLI definition with Click under the hood. Rich integration for beautiful terminal output, testing CLIs with CliRunner, and packaging with PyInstaller.",
+    "tags": ["Python", "CLI", "Typer", "DevTools", "Open Source"],
+    "author": "Per Lindgren",
+    "date": "2024-06-25"
+  },
+  {
+    "title": "Spatial Data and PostGIS",
+    "content": "Geospatial queries with PostGIS: GiST spatial indexes, ST_DWithin for proximity queries, and geometry vs. geography for global distance calculations. Integrating with Python via GeoPandas and psycopg2.",
+    "tags": ["PostGIS", "PostgreSQL", "Geospatial", "Database", "Python"],
+    "author": "Chidimma Obi",
+    "date": "2024-01-23"
+  },
+  {
+    "title": "AI for Software Architecture Decisions",
+    "content": "Using LLMs as sounding boards for architectural decisions: generating trade-off analyses, stress-testing assumptions through adversarial prompts, and maintaining AI-assisted ADR documentation.",
+    "tags": ["AI", "Software Architecture", "LLM", "ADR", "Developer Productivity"],
+    "author": "Mateus Ribeiro",
+    "date": "2024-05-11"
+  },
+  {
+    "title": "Taming Microservice Complexity with Domain-Driven Design",
+    "content": "Applying DDD bounded contexts, aggregates, and domain events to partition microservices along business capability lines. Anti-corruption layers for integrating legacy systems and strangler fig refactoring.",
+    "tags": ["DDD", "Microservices", "Architecture", "Domain-Driven Design"],
+    "author": "Oluwakemi Adeyemi",
+    "date": "2024-07-22"
+  }
+]
