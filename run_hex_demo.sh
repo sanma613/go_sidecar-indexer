@@ -14,11 +14,8 @@ go run . \
 	--mem-threshold-bytes 8192 \
 	--mem-hard-limit-bytes 16384
 
-echo "== Segmentos creados =="
-ls -1 data/dict-*.sst data/post-*.sst
-
-echo "== Query newest->oldest (AND) =="
-go run . --mode search --query "introduccion and sidecar"
-
-echo "== Query simple =="
-go run . --mode search --query "hexagonal"
+go run . --mode search --query "AI AND LLM"
+go run . --mode search --query "Prompt AND engineering"
+go run . --mode search --query "pipelines AND automating AND Infracode"
+go run . --mode search --query "LLM"
+go run . --mode search --query "Architectures"
