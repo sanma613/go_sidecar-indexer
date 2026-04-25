@@ -110,7 +110,7 @@ id,name,role,bio
 109,Jonas Köhler,SaaS Billing Analyst,"Helps correlate doc analytics runs with billing, maintains usage metering dashboard for indexer teams."
 110,Mirna Perez,Senior SDET,"Designs test charters for PDF/CSV doc ingestion, maintains regression dashboard for semantic search."
 111,Tim Oud,Cloud Database Engineer,"Automates deployment of cloud DWH with Go and Terraform, designs live status dashboards."
-112,Isaac Lin,Technical Support","Assists users with Go indexer/ETL deployments, authors how-to for PDF/CSV troubleshooting."
+112,Isaac Lin,Technical Support,"Assists users with Go indexer/ETL deployments, authors how-to for PDF/CSV troubleshooting."
 113,Francine Doyle,Data Engineering Evangelist,"Runs trainings on LSM-tree scaling and fail-safe ingestion, builds open source ingestion reference flows."
 114,Gilang Saputra,API Quality Coach,"Coordinates OpenAPI lint, integration, and security automation for document-centric backends."
 115,Samantha Blake,Learning Facilitator,"Leads hands-on sessions for non-tech teams, introduces LLM/Go document automation to new users."
