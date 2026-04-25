@@ -1,0 +1,631 @@
+[
+  {
+    "id": 0,
+    "name": "TensorFlow Edge TPU",
+    "description": "Edge AI accelerator running quantized neural network models for real-time vision and language on embedded hardware.",
+    "specs": {"processor": "Edge TPU", "ram": "512MB", "ai_score": 9.5},
+    "vendor": "Google AI",
+    "category": "Hardware",
+    "tags": ["AI", "Edge", "TensorFlow", "Acceleration"]
+  },
+  {
+    "id": 1,
+    "name": "GopherDB Cloud",
+    "description": "Multi-region cloud database optimized for scalable, stateful Go microservices with LSM indexing.",
+    "specs": {"engine": "LSM", "availability": "99.99%", "backup": "S3"},
+    "vendor": "Cloud Native Infra",
+    "category": "Database",
+    "tags": ["Go", "Database", "Cloud", "LSM"]
+  },
+  {
+    "id": 2,
+    "name": "TypeScript 5 Project Templates",
+    "description": "Curated enterprise-grade boilerplates for web apps, Node services, and hybrid projects with full TSConfig setup.",
+    "specs": {"templates": 12, "tsconfig": "advanced"},
+    "vendor": "TSPress",
+    "category": "Developer Tools",
+    "tags": ["TypeScript", "Templates", "Config"]
+  },
+  {
+    "id": 3,
+    "name": "NeuralDoc QA",
+    "description": "Context-aware AI question answering engine for legal and financial documents, leveraging transformer models.",
+    "specs": {"model": "BERT-FT", "batchContext": true},
+    "vendor": "DL Solutions",
+    "category": "AI SaaS",
+    "tags": ["AI", "NLP", "QA", "Legal", "Finance"]
+  },
+  {
+    "id": 4,
+    "name": "PyRefly IDE",
+    "description": "Python IDE with real-time static type checking, code refactoring agents, and Rust-powered plugins.",
+    "specs": {"platforms": ["Linux", "macOS", "Windows"], "pluginAPI": true},
+    "vendor": "Refly Labs",
+    "category": "Software",
+    "tags": ["Python", "Rust", "IDE", "Agents"]
+  },
+  {
+    "id": 5,
+    "name": "Go-LLM AgentOps",
+    "description": "Orchestration framework for large language model agents in Go, supporting autoscaling, observability, and fault-tolerance.",
+    "specs": {"llmSupport": ["GPT-4", "Gemini"], "maxAgents": 128},
+    "vendor": "AgentOps Inc.",
+    "category": "Framework",
+    "tags": ["Go", "LLM", "Agents", "Orchestration"]
+  },
+  {
+    "id": 6,
+    "name": "VisionPro Camera Module",
+    "description": "4K AI-enabled camera with onboard image processing, FPGA coprocessing, and edge event triggers.",
+    "specs": {"resolution": "4K", "FPGA": true, "triggerEvent": true},
+    "vendor": "VisionPro",
+    "category": "Hardware",
+    "tags": ["Vision", "AI", "FPGA", "Camera"]
+  },
+  {
+    "id": 7,
+    "name": "Celery Cloud Broker",
+    "description": "Distributed task queue system for highly available Python microservices, with dynamic scaling and unified monitoring.",
+    "specs": {"workers": 1000, "regionFailover": true},
+    "vendor": "TaskFlow Labs",
+    "category": "Cloud Services",
+    "tags": ["Python", "Celery", "TaskQueue"]
+  },
+  {
+    "id": 8,
+    "name": "CloudLogix AIOps",
+    "description": "Unified platform for log aggregation, anomaly detection, trace analytics, and ML-driven alerting in real-time.",
+    "specs": {"alertRate": "200/min", "integrations": ["Slack", "PagerDuty"]},
+    "vendor": "CloudLogix",
+    "category": "DevOps Tools",
+    "tags": ["Logs", "AI", "Ops", "Analytics"]
+  },
+  {
+    "id": 9,
+    "name": "GoSearch SDK",
+    "description": "Go library to embed full-text search with scoring, custom tokenizers, stemmers, and near-real-time updates.",
+    "specs": {"language": "Go", "supportsCustomRanking": true},
+    "vendor": "GoSearch",
+    "category": "SDK",
+    "tags": ["Go", "Search", "Indexing"]
+  },
+  {
+    "id": 10,
+    "name": "Prometheus Edge Gateway",
+    "description": "Lightweight metrics gateway for collecting, federating and relaying Prometheus, OpenMetrics, and custom sources on edge devices.",
+    "specs": {"supportedProtocols": ["Prometheus", "OpenMetrics"], "edgeReady": true},
+    "vendor": "PromOps Tech",
+    "category": "Monitoring",
+    "tags": ["Prometheus", "Edge", "Metrics"]
+  },
+  {
+    "id": 11,
+    "name": "TS Chain Smart Contract Kit",
+    "description": "TypeScript-first toolkit for rapidly building and testing Ethereum, Polygon, and Solana smart contracts with ABI codegen.",
+    "specs": {"chains": ["Ethereum", "Polygon", "Solana"], "codegen": true},
+    "vendor": "TypeChain Labs",
+    "category": "Blockchain",
+    "tags": ["TypeScript", "Blockchain", "SmartContracts"]
+  },
+  {
+    "id": 12,
+    "name": "SentimentAI API",
+    "description": "REST API and Python SDK for multi-language sentiment and subjectivity analysis (18+ languages supported, domain adaptation).",
+    "specs": {"languages": 18, "modelSizeMB": 1024},
+    "vendor": "LangAI Hub",
+    "category": "AI API",
+    "tags": ["AI", "NLP", "Sentiment", "API"]
+  },
+  {
+    "id": 13,
+    "name": "Go PDF Extractor",
+    "description": "Go tool for extracting rich text, tables, and annotations from scanned and machine-generated PDF files. Supports batch mode.",
+    "specs": {"pdfTypes": ["scanned", "native"], "supportsBatch": true},
+    "vendor": "PDFSuite Go",
+    "category": "Go Libraries",
+    "tags": ["Go", "PDF", "Extraction", "Documents"]
+  },
+  {
+    "id": 14,
+    "name": "HelmViz",
+    "description": "Visualize Helm chart dependencies and cluster topologies with an interactive web dashboard.",
+    "specs": {"charts": "static+dynamic", "supportsRealtime": true},
+    "vendor": "CloudGraph Analytics",
+    "category": "DevOps Tools",
+    "tags": ["Helm", "Kubernetes", "Visualization", "DevOps"]
+  },
+  {
+    "id": 15,
+    "name": "TSConfig Wizard",
+    "description": "CLI for instantly generating TypeScript configs for Node, Deno, and web, with robust lint rule scaffolding.",
+    "specs": {"platforms": ["Node", "Web", "Deno"], "lintRules": 120},
+    "vendor": "TS Tools",
+    "category": "Developer Tools",
+    "tags": ["TypeScript", "Configuration", "CLI"]
+  },
+  {
+    "id": 16,
+    "name": "FactStream News API",
+    "description": "Live news and media feed aggregator with topic classification, keyword search, and streaming API. Delivers 50+ categories.",
+    "specs": {"categories": 50, "streaming": true},
+    "vendor": "FactStream",
+    "category": "News",
+    "tags": ["API", "News", "Classification", "Streaming"]
+  },
+  {
+    "id": 17,
+    "name": "StreamLens Video Analyzer",
+    "description": "Video stream AI analyzer for incident detection, annotation, and compliance with YOLOv7 models.",
+    "specs": {"videoInput": ["HLS", "RTSP"], "model": "YOLOv7"},
+    "vendor": "StreamML",
+    "category": "AI SaaS",
+    "tags": ["AI", "Video", "Streaming", "YOLO"]
+  },
+  {
+    "id": 18,
+    "name": "Lambda Compute Fleet",
+    "description": "Elastic autoscaling compute service with per-second billing and cloud-native API gateway.",
+    "specs": {"autoscale": true, "apiGateway": true, "uptime": "99.99%"},
+    "vendor": "CloudSys",
+    "category": "Cloud Services",
+    "tags": ["Cloud", "Compute", "Autoscaling", "API"]
+  },
+  {
+    "id": 19,
+    "name": "NLP Dataset Hub",
+    "description": "Centralized, curated NLP datasets for multiple languages. Auto-tagging, deduplication, and fast API access for research workflows.",
+    "specs": {"datasets": 12000, "apiAccess": true},
+    "vendor": "DataMine AI",
+    "category": "Data Repository",
+    "tags": ["NLP", "Datasets", "ML", "Repository"]
+  },
+  {
+    "id": 20,
+    "name": "AuditPilot Zeek",
+    "description": "Automated network, Zeek, and firewall log processing for threat intelligence and SIEM enrichment with ML scoring.",
+    "specs": {"supportedLogs": ["flow", "Zeek", "firewall"], "usesML": true},
+    "vendor": "AuditPilot",
+    "category": "Security",
+    "tags": ["Logs", "Security", "SIEM", "ML"]
+  },
+  {
+    "id": 21,
+    "name": "DataMesh Orchestrator",
+    "description": "Orchestrates ETL, streaming, and batch workflows for cloud and hybrid data: JSON, CSV, PDF supported out-of-the-box.",
+    "specs": {"etlTypes": ["stream", "batch"], "cloudNative": true},
+    "vendor": "DataMeshX",
+    "category": "Data Engineering",
+    "tags": ["ETL", "Data Orchestration", "Streaming"]
+  },
+  {
+    "id": 22,
+    "name": "Quorum Ledger Core",
+    "description": "Enterprise blockchain solution with on-chain analytics, cross-ledger interoperability, and Go/TypeScript APIs.",
+    "specs": {"supportedLangs": ["Go", "TypeScript"], "contractAudit": true},
+    "vendor": "Quorum Labs",
+    "category": "Blockchain",
+    "tags": ["Blockchain", "Smart Contracts", "Go", "TypeScript"]
+  },
+  {
+    "id": 23,
+    "name": "MicroTensor Learning Node",
+    "description": "Distributed federated learning infrastructure for compliance AI and edge-driven autonomous agents.",
+    "specs": {"federated": true, "encryption": "Homomorphic"},
+    "vendor": "MicroTensor",
+    "category": "AI/ML",
+    "tags": ["Federated", "AI", "ML", "Edge"]
+  },
+  {
+    "id": 24,
+    "name": "TS Query Inspector",
+    "description": "Automated code analyzer and optimizer for TypeScript-based SQL, GraphQL, and NoSQL queries. Includes scoring and recommendations.",
+    "specs": {"supportedQueries": ["SQL", "GraphQL", "NoSQL"], "pluginAPI": true},
+    "vendor": "TSQueryTools",
+    "category": "Developer Tools",
+    "tags": ["TypeScript", "Query", "API", "Optimization"]
+  },
+  {
+    "id": 25,
+    "name": "Eventive Push Engine",
+    "description": "Cloud push and messaging backbone supporting millions of messages/sec, with advanced targeting, segmentation, and analytics.",
+    "specs": {"maxMessagesPerSec": 2000000, "abTesting": true, "geoTargeting": true},
+    "vendor": "Eventive",
+    "category": "Messaging",
+    "tags": ["Messaging", "Push", "AB Testing", "Real-Time", "Geo"]
+  },
+  {
+    "id": 26,
+    "name": "AIOps RemediateX",
+    "description": "Automated AI remediation for incidents and outages across cloud, k8s, and hybrid — runs playbooks and reports to ServiceNow.",
+    "specs": {"playbooks": 320, "integrations": ["PagerDuty", "ServiceNow", "Cortex"]},
+    "vendor": "RemediateX",
+    "category": "AI Ops",
+    "tags": ["AIOps", "Remediation", "Automation", "Cloud", "Kubernetes"]
+  },
+  {
+    "id": 27,
+    "name": "PySearch Engine",
+    "description": "Extensible Python-based text search server with pluggable tokenizers, vector similarity search, and semantic annotation.",
+    "specs": {"vectorSearch": true, "tokenizers": 8},
+    "vendor": "PySearch",
+    "category": "AI Tools",
+    "tags": ["Python", "Search", "Text", "Vectors"]
+  },
+  {
+    "id": 28,
+    "name": "StreamDeploy CD",
+    "description": "Lightning-fast continuous deployment system for modern SaaS, supports GitOps and policy-as-code deployments.",
+    "specs": {"supportsGitOps": true, "envs": ["k8s", "bare metal"]},
+    "vendor": "StreamDeploy",
+    "category": "DevOps Tools",
+    "tags": ["Deployment", "CD", "GitOps", "Microservices"]
+  },
+  {
+    "id": 29,
+    "name": "InsightDash Analytics",
+    "description": "Unified analytics dashboard: logs, metrics, traces, and alerts for multi-platform, multi-cloud setups and hybrid clusters.",
+    "specs": {"visualizations": true, "multiCloud": true},
+    "vendor": "InsightDash",
+    "category": "Analytics",
+    "tags": ["Analytics", "Logging", "Monitoring", "Cloud"]
+  },
+  {
+    "id": 30,
+    "name": "OpenEdge IoT Hub",
+    "description": "API-driven IoT hub for connecting, ingesting, and managing tens of thousands of smart devices at the edge.",
+    "specs": {"maxDevices": 20000, "protocols": ["MQTT","CoAP"]},
+    "vendor": "EdgeXpert",
+    "category": "IoT",
+    "tags": ["IoT", "Edge", "API", "Devices"]
+  },
+  {
+    "id": 31,
+    "name": "AnalyticsNow SQL IDE",
+    "description": "Web and desktop SQL IDE for BigQuery, Redshift, MySQL. Includes AI-assisted query completion and charting.",
+    "specs": {"platforms": ["Web", "Desktop"], "supportsAICompletion": true},
+    "vendor": "AnalyticsNow",
+    "category": "Software",
+    "tags": ["SQL", "IDE", "Analytics", "AI"]
+  },
+  {
+    "id": 32,
+    "name": "GoDash Liveness Probe",
+    "description": "Go microservice liveness and readiness probe manager. Exports Prometheus metrics and restarts crashed containers.",
+    "specs": {"supportsRestart": true, "metrics": ["Prometheus"]},
+    "vendor": "GoDash",
+    "category": "Go Libraries",
+    "tags": ["Go", "Liveness", "Metrics", "Prometheus"]
+  },
+  {
+    "id": 33,
+    "name": "QueryWizard API Gateway",
+    "description": "Central API gateway for managing, versioning, and securing SQL, REST, and gRPC public endpoints at scale.",
+    "specs": {"apiVersioning": true, "protoSupport": true},
+    "vendor": "QueryWizard",
+    "category": "API",
+    "tags": ["API", "Versioning", "REST", "gRPC"]
+  },
+  {
+    "id": 34,
+    "name": "DocuSmart Ingestor",
+    "description": "CLI and framework for ingesting PDFs, CSVs, and JSON files, extracting NLP features, and exporting auto-labeled training sets.",
+    "specs": {"formats": ["PDF", "CSV", "JSON"], "autoLabeling": true},
+    "vendor": "DocuSmart",
+    "category": "AI Tools",
+    "tags": ["Documents", "NLP", "Ingestion", "Training"]
+  },
+  {
+    "id": 35,
+    "name": "TSGen Codegen Suite",
+    "description": "Generates TypeScript classes from OpenAPI and GraphQL schemas, automatic docs, and runtime validation.",
+    "specs": {"inputTypes": ["OpenAPI", "GraphQL"], "supportsDocs": true},
+    "vendor": "TSGen",
+    "category": "Developer Tools",
+    "tags": ["TypeScript", "Codegen", "Schematics"]
+  },
+  {
+    "id": 36,
+    "name": "LogFlux SIEM",
+    "description": "Modern security event management with streaming log analytics, cloud integrations, and ML-powered threat detection pipelines.",
+    "specs": {"threatML": true, "cloudIntegrations": true},
+    "vendor": "LogFlux",
+    "category": "Security",
+    "tags": ["SIEM", "Logs", "Analytics", "ML"]
+  },
+  {
+    "id": 37,
+    "name": "VectorQ Search Toolkit",
+    "description": "Hybrid keyword and dense vector search for enterprise document collections. Supports FAISS, Annoy, and local embeddings.",
+    "specs": {"faiss": true, "embeddings": "local"},
+    "vendor": "VectorQ",
+    "category": "AI Tools",
+    "tags": ["Search", "Vector", "Embeddings", "Keyword"]
+  },
+  {
+    "id": 38,
+    "name": "AccuTypes Linter",
+    "description": "Comprehensive linter and static analyzer for TypeScript, Python, and Go. Finds anti-patterns, offers fix suggestions, and AI-powered severity scoring.",
+    "specs": {"supportedLangs": ["Go", "Python", "TypeScript"], "severityScore": true},
+    "vendor": "AccuTypes",
+    "category": "Developer Tools",
+    "tags": ["Linter", "Analyzer", "AI", "Types"]
+  },
+  {
+    "id": 39,
+    "name": "HelioReports",
+    "description": "Automated PDF reporting from data lakes with charting, commentary synthesis, and ML insight sections.",
+    "specs": {"supportsCharts": true, "mlInsights": true},
+    "vendor": "HelioReports",
+    "category": "Reporting",
+    "tags": ["PDF", "Reports", "ML", "Charts"]
+  },
+  {
+    "id": 40,
+    "name": "InsightVision OCR",
+    "description": "Optical character recognition service with NLP extraction for receipts, contracts, and scanned docs. Supports multi-language batch extraction.",
+    "specs": {"languages": ["en", "es", "de", "fr"], "batchMode": true, "documentTypes": ["receipt", "contract"]},
+    "vendor": "InsightVision",
+    "category": "AI SaaS",
+    "tags": ["OCR", "NLP", "Batch", "ScannedDocs"]
+  },
+  {
+    "id": 41,
+    "name": "ServerLens Traffic Monitor",
+    "description": "Traffic and trace correlation engine for microservices, identifying latency bottlenecks and packet loss. Includes Grafana plug-in.",
+    "specs": {"reportInterval": "1s", "grafanaPlugin": true},
+    "vendor": "ServerLens",
+    "category": "Monitoring",
+    "tags": ["Traffic", "Monitoring", "Tracing", "Grafana"]
+  },
+  {
+    "id": 42,
+    "name": "LogFlare SIEM Integrator",
+    "description": "SIEM integration hub supporting log streaming, field mapping, and customizable alerting for cloud/hybrid environments.",
+    "specs": {"sources": ["AWS", "Azure", "GCP"], "supportsCustomAlerts": true},
+    "vendor": "LogFlare",
+    "category": "Security",
+    "tags": ["SIEM", "Logs", "Integration", "Cloud"]
+  },
+  {
+    "id": 43,
+    "name": "HelioDocs PDF Synthesizer",
+    "description": "PDF generator using AI to synthesize structured commentary and insights from unstructured CSV/JSON input.",
+    "specs": {"inputFormats": ["CSV", "JSON"], "supportsML": true},
+    "vendor": "HelioDocs",
+    "category": "Reporting",
+    "tags": ["PDF", "Synthesis", "AI", "Reporting"]
+  },
+  {
+    "id": 44,
+    "name": "LambdaQL Database Engine",
+    "description": "Cloud-native analytical DB with streaming SQL, serverless querying, and built-in metrics export.",
+    "specs": {"streamingSQL": true, "metricsExport": true, "serverless": true},
+    "vendor": "LambdaQL",
+    "category": "Database",
+    "tags": ["Database", "SQL", "Serverless", "Streaming"]
+  },
+  {
+    "id": 45,
+    "name": "SenseNet IDS",
+    "description": "Network intrusion detection with real-time anomaly scoring, ML-powered rules, and automatic report generation.",
+    "specs": {"realTime": true, "mlRules": true, "autoReports": true},
+    "vendor": "SenseNet",
+    "category": "Security",
+    "tags": ["Network", "Security", "IDS", "Anomaly"]
+  },
+  {
+    "id": 46,
+    "name": "DataForge ETL",
+    "description": "Distributed ETL service with support for JSON, CSV, PDF, and API integrations. Full audit tracing and schema evolution.",
+    "specs": {"formats": ["CSV", "JSON", "PDF", "API"], "auditTrace": true},
+    "vendor": "DataForge Corp",
+    "category": "Data Engineering",
+    "tags": ["ETL", "Schema", "Audit", "Integrations"]
+  },
+  {
+    "id": 47,
+    "name": "RapidML Studio",
+    "description": "End-to-end platform for rapid model iteration, serving, and real-time feature store for ML workloads.",
+    "specs": {"supportsAutoML": true, "realTimeFeatures": true},
+    "vendor": "RapidML",
+    "category": "AI Platform",
+    "tags": ["ML", "Studio", "FeatureStore", "AutoML"]
+  },
+  {
+    "id": 48,
+    "name": "KubeGuard Policy Engine",
+    "description": "Policy-as-code engine for Kubernetes supporting drift detection, live compliance, and Rego/OPA rules authoring.",
+    "specs": {"policyLang": "Rego", "supportsOPA": true},
+    "vendor": "CloudNativeOps",
+    "category": "Security",
+    "tags": ["Kubernetes", "Policy", "Compliance", "OPA"]
+  },
+  {
+    "id": 49,
+    "name": "FastML Experiment Tracker",
+    "description": "Comprehensive experiment tracker for ML with curve comparison, REST API, TensorBoard export, and Slack notifications.",
+    "specs": {"api": "REST", "export": ["TensorBoard"], "notifySlack": true},
+    "vendor": "ML FastTrack",
+    "category": "AI Tools",
+    "tags": ["ML", "Experiment", "Tracking", "Comparison"]
+  },
+  {
+    "id": 50,
+    "name": "Prometheus Edge Gateway",
+    "description": "Lightweight metrics collection and remote write relay optimized for edge environments with spotty connectivity.",
+    "specs": {"remoteWrite": true, "edgeResilience": true},
+    "vendor": "PromOps Edge",
+    "category": "Monitoring",
+    "tags": ["Prometheus", "Metrics", "Edge", "Resilience"]
+  },
+  {
+    "id": 51,
+    "name": "SyntheticaQA API",
+    "description": "Synthetic data generator and question answer API for AI model pretraining and curriculum design.",
+    "specs": {"dataGen": true, "qaAPI": true},
+    "vendor": "Synthetica",
+    "category": "AI Tools",
+    "tags": ["SyntheticData", "QA", "API", "Pretraining"]
+  },
+  {
+    "id": 52,
+    "name": "FileSync S3 Kit",
+    "description": "CLI and SDK for rapid, secure S3 file sync with diff preview, encryption, and resumable upload support.",
+    "specs": {"encryption": true, "resumeUploads": true},
+    "vendor": "FileSync Corp",
+    "category": "Cloud Tools",
+    "tags": ["S3", "FileSync", "CLI", "Encryption"]
+  },
+  {
+    "id": 53,
+    "name": "RelayMesh Event Engine",
+    "description": "Enterprise-scale event mesh for real-time routing and event-driven microservices with GraphQL support.",
+    "specs": {"eventRouting": true, "supportsGraphQL": true},
+    "vendor": "RelayMesh",
+    "category": "Messaging",
+    "tags": ["Event", "GraphQL", "Microservices", "Routing"]
+  },
+  {
+    "id": 54,
+    "name": "AuditPilot S3 Auditor",
+    "description": "Automated S3 bucket auditor, detects misconfigurations, public buckets, and suspicious access patterns.",
+    "specs": {"accessAnalyser": true, "publicAlert": true},
+    "vendor": "AuditPilot",
+    "category": "Security",
+    "tags": ["S3", "Audit", "Security", "Buckets"]
+  },
+  {
+    "id": 55,
+    "name": "ClusterQ Monitor",
+    "description": "Horizontal and vertical pod autoscaling monitor for Kubernetes, with predictive alerting and Grafana exporter.",
+    "specs": {"predictive": true, "grafanaExporter": true},
+    "vendor": "ClusterQ",
+    "category": "Monitoring",
+    "tags": ["Kubernetes", "Autoscaling", "Grafana", "Monitoring"]
+  },
+  {
+    "id": 56,
+    "name": "NLP Tagger Pro",
+    "description": "Advanced named entity recognition and keyword tagger for CSV, PDF, and JSON pipelines. CLI and API.",
+    "specs": {"NER": true, "pipeline": ["CSV", "PDF", "JSON"]},
+    "vendor": "LangAI Pro",
+    "category": "AI Tools",
+    "tags": ["NLP", "Tagging", "NER", "Pipelines"]
+  },
+  {
+    "id": 57,
+    "name": "DocuTrain ETL",
+    "description": "Batch and stream ETL for extracting labeled training data from academic papers and technical reports in PDF format.",
+    "specs": {"streaming": true, "pdfExtraction": true},
+    "vendor": "DocuTrain",
+    "category": "Data Engineering",
+    "tags": ["ETL", "PDF", "Training", "Batch"]
+  },
+  {
+    "id": 58,
+    "name": "MLView Cloud",
+    "description": "Cloud-based ML model visualization, comparison, and drift dashboard supporting TensorFlow, XGBoost, and scikit-learn.",
+    "specs": {"modelTypes": ["TensorFlow", "XGBoost", "sklearn"], "driftDetection": true},
+    "vendor": "MLView",
+    "category": "AI Platform",
+    "tags": ["ML", "Visualization", "Drift", "Cloud"]
+  },
+  {
+    "id": 59,
+    "name": "FastAPI LintKit",
+    "description": "Static code analysis toolkit for FastAPI Python projects with endpoint validation and security best practice linting.",
+    "specs": {"endpoints": 120, "lintRules": 19},
+    "vendor": "LintKit",
+    "category": "Developer Tools",
+    "tags": ["Python", "FastAPI", "Linting", "Security"]
+  },
+  {
+    "id": 60,
+    "name": "Quicksight Perf Analyzer",
+    "description": "Performance profiler for API and SQL queries in production, providing flame graphs and issue traces.",
+    "specs": {"flameGraph": true, "issueTrace": true},
+    "vendor": "Quicksight",
+    "category": "Analytics",
+    "tags": ["Performance", "Profiler", "API", "SQL"]
+  },
+  {
+    "id": 61,
+    "name": "StreamBox Data Streamer",
+    "description": "Data streaming toolkit for ingesting, transforming, and serving events in real time. Supports Avro, CSV, JSON, and Protobuf.",
+    "specs": {"formats": ["Avro", "CSV", "JSON", "Protobuf"], "realTime": true},
+    "vendor": "StreamBox",
+    "category": "Streaming",
+    "tags": ["Streaming", "Events", "Transforming", "Avro"]
+  },
+  {
+    "id": 62,
+    "name": "RetroML Model Catalog",
+    "description": "Public and private repository of classic and modern ML models, with dependency tracking and API serving.",
+    "specs": {"public": true, "apiServing": true},
+    "vendor": "RetroML",
+    "category": "AI Platform",
+    "tags": ["ML", "Models", "Repository", "API"]
+  },
+  {
+    "id": 63,
+    "name": "TypeSafe Config Analyzer",
+    "description": "Configuration validator for large-scale TypeScript and Python projects with AI-driven suggestions and impact analysis.",
+    "specs": {"supported": ["TypeScript", "Python"], "aiSuggestions": true},
+    "vendor": "SafeConfig",
+    "category": "Developer Tools",
+    "tags": ["Config", "Analysis", "TypeScript", "Python"]
+  },
+  {
+    "id": 64,
+    "name": "Redact AI",
+    "description": "Automatic PII and sensitive info redaction for text, logs, and documents, supporting custom rulesets and audit trails.",
+    "specs": {"PIITypes": ["names", "email", "ssn"], "supportsRegex": true},
+    "vendor": "Redact AI",
+    "category": "AI SaaS",
+    "tags": ["PII", "Redaction", "Audit", "AI"]
+  },
+  {
+    "id": 65,
+    "name": "QueryScope SQL Profiler",
+    "description": "Comprehensive SQL query and ALM profiling, with explain plan rendering, deadlock detection, and index hints.",
+    "specs": {"explainPlan": true, "deadlockDetection": true},
+    "vendor": "QueryScope",
+    "category": "Database",
+    "tags": ["SQL", "Profiler", "Explain", "Index"]
+  },
+  {
+    "id": 66,
+    "name": "Vaultify Secrets Manager",
+    "description": "Centralized secrets management with RBAC, audit logging, cloud KMS integration, and secret versioning.",
+    "specs": {"rbac": true, "kmsIntegration": true},
+    "vendor": "Vaultify",
+    "category": "Security",
+    "tags": ["Secrets", "KMS", "RBAC", "Audit"]
+  },
+  {
+    "id": 67,
+    "name": "CloudStream DataBridge",
+    "description": "High-volume, low-latency data bridge for connecting cloud and on-prem DWHs and operational data stores.",
+    "specs": {"volume": "100TB+", "latency": "ms"},
+    "vendor": "CloudStream",
+    "category": "Data Integration",
+    "tags": ["Data", "Bridge", "Cloud", "Integration"]
+  },
+  {
+    "id": 68,
+    "name": "PromptGen AI",
+    "description": "Prompt engineering studio for LLMs, featuring template libraries, A/B evaluation, and prompt diagnostics.",
+    "specs": {"templates": 200, "evaluation": true},
+    "vendor": "PromptGen",
+    "category": "AI Tools",
+    "tags": ["Prompt", "LLM", "Templates", "Evaluation"]
+  },
+  {
+    "id": 69,
+    "name": "Workflows OS",
+    "description": "Drag-and-drop workflow engine for automating ETL, infracode, Kubernetes ops, and multi-step CI/CD pipelines.",
+    "specs": {"etls": "visual", "k8sOps": true, "pipelines": "multi-step"},
+    "vendor": "Workflows OS",
+    "category": "Automation",
+    "tags": ["Workflow", "Automation", "CI/CD", "Kubernetes"]
+  }
